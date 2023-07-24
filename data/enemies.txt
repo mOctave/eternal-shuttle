@@ -1,0 +1,48 @@
+mission "Enemies: New Horizons"
+	invisible
+	landing
+	npc board
+		government "Pirate"
+		personality
+			staying
+			plunders
+			harvests
+			hunting
+			confusion 20
+		system "NH-411"
+		conversation "small boarded pirate"
+		fleet
+			names "pirate"
+			cargo 1
+			variant
+				"Scrapper"
+	npc board
+		government "Pirate"
+		personality
+			staying
+			plunders
+			harvests
+			hunting
+			confusion 20
+		system "NH-637"
+		conversation "small boarded pirate"
+		fleet
+			names "pirate"
+			cargo 1
+			variant
+				"Scrapper"
+	npc board
+		government "Pirate"
+		personality
+			staying
+			plunders
+			harvests
+			hunting
+			confusion 20
+		system "NH-089"
+		conversation "small boarded pirate"
+		fleet
+			names "pirate"
+			cargo 1
+			variant
+				"Sparrow"

@@ -1,0 +1,4 @@
+conversation "small boarded pirate"
+	`As soon as you board the <npc>, you notice a small pile of credit chips worth about 1000 credits, what seems to be a bribe. You pocket the money, and consider your next steps.`
+	action
+		payment 1000

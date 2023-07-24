@@ -1,0 +1,128 @@
+government "Grey's Mercenaries"
+	swizzle 5
+	
+	"player reputation" 15
+	"attitude toward"
+		"Pirate" -.2
+		"Merchant" .1
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly grey's merc"
+	"hostile hail" "hostile grey's merc"
+
+# Phrases
+phrase "friendly grey's merc"
+	phrase
+		"friendly grey's merc 1"
+		"friendly grey's merc 2"
+
+phrase "hostile grey's merc"
+	phrase
+		"hostile grey's merc 1"
+
+phrase "friendly grey's merc 1"
+	word
+		"Never"
+		"Don't ever"
+		"You shouldn't"
+		"It's a bad idea to"
+	word
+		" "
+	word
+		"take on the Ashkth"
+		"fight pirates"
+		"launch an assault on an emey planet"
+		"insult a powerful politician"
+		"provoke Grey's Mercenaries"
+		"chase smugglers"
+	word
+		" "
+	word
+		"without"
+		"before getting"
+		"without having"
+		"without getting"
+		"unless you have"
+	word
+		" "
+	word
+		"backup."
+		"support."
+		"help."
+		"a large fleet."
+		"powerful weapons."
+		"powerful friends."
+		"excellent intel."
+		"a heavy warship."
+
+phrase "friendly grey's merc 2"
+	word
+		"We"
+		"Grey's mercenaries"
+		"Our kind"
+		"My crew"
+	word
+		" "
+	word
+		"may not be"
+		"isn't"
+		"can't claim to be"
+		"surely isn't"
+		"might not be"
+	word
+		" "
+	word
+		"rich"
+		"honourable"
+		"trsuting"
+		"noble"
+		"friendly"
+		"mighty"
+	word
+		" "
+	word
+		"but we've got"
+		"but we have"
+		"but we've"
+		"but no one's ever said we don't have"
+		"but what we do have is"
+	word
+		" "
+	word
+		"courage"
+		"bravery"
+		"wisdom"
+		"prudence"
+		"street smarts"
+		"common sense"
+		"big guns"
+		"missile launchers"
+		"speed"
+		"strength"
+		"numbers"
+		"firepower"
+		"skill"
+	word
+		"."
+
+phrase "hostile grey's merc 1"
+	word
+		"You shouldn't have done that"
+		"You're going down"
+		"Prepare to die"
+		"You've insulted Grey's Mercenaries once too many"
+		"You've gone too far"
+		"You're about to become stardust"
+		"Soon you'll be nothing but a ball of plasma"
+		"Say your prayers"
+	word
+		", "
+	word
+		"you fool"
+		"punk"
+		"you and your bucket of bolts"
+		"slimeball"
+		"captain"
+		"marauder"
+	word
+		"."

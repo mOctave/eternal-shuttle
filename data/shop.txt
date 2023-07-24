@@ -1,0 +1,42 @@
+mission "Shop: New Horizons 1"
+	invisible
+	source "New Horizons 1"
+	npc
+		government "Grey's Mercenaries"
+		personality
+			opportunistic
+			frugal
+			plunders
+			merciful
+			escort
+			launching
+			confusion 5
+		ship "Hawk" "Rustbucket"
+	landing
+	on offer
+		conversation
+			`After landing your battered shuttle, you are met by an elderly man wearing an eye patch. He takes one look at your ship and whistles. "It's a miracle you made it here in that." he says, "An unarmed shuttle is easy prey for pirates, let alone the Ashkth. Luckily for you, I can help fix that. It'll be four thousand credits for a laser, and you're not getting one any cheaper than that."`
+			choice
+				`	"That's a bargain. I'll take it!"`
+					goto sale
+				`	"Four thousand credits? Is it defective?"`
+				`	"No thanks. I'll go without it for now."`
+					goto nobuy
+			`	"No, it's not defective, although it's a bit dusty. To tell you the truth, I'm about ready to bail out of here myself: a couple days later and you'd have missed me. I don't have space for the laser in my hold, and my ship's got better weapons, but you look like you could use it, so I'll give you the chance to buy it off me."`
+			choice
+				`	"Okay, I'll buy it."`
+				`	"Sorry, I don't trust it."`
+					goto nobuy
+			label sale
+			action
+				payment -4000
+				outfit "Beam Laser"
+			`	You hand over some credit chips worth four thousand credits, and the man helps you install the laser on your ship. It's a rough job, but the best you're likely to get around here. Finally, the man steps away from your gunport. "Well, there you are. Now, I won't say your chances are good, but they're better than they were. Say, what do you think about travelling with me for a while? I can be ready to leave in three hours."`
+			choice
+				`	"Sounds good!"`
+					accept
+				`	"No thanks, I'll go it alone for now."`
+					decline
+			label nobuy
+			`	"Suit yourself, then, and good luck. You're gonna need it."`
+				decline

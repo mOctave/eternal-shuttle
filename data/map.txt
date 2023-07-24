@@ -1,0 +1,79 @@
+system "NH-043"
+	pos 10000 0
+	government "Uninhabited"
+	link "NH-081"
+	object
+		sprite star/m-supergiant
+	object "New Horizons 9"
+		sprite planet/station1b
+		distance 800
+		period 400
+
+system "NH-081"
+	pos 10054 16
+	government "Uninhabited"
+	link "NH-043"
+	link "NH-261"
+	object
+		sprite star/g-supergiant
+
+system "NH-261"
+	pos 10092 -27
+	government "Uninhabited"
+	link "NH-081"
+	link "NH-005"
+	object
+		sprite star/k-supergiant
+
+system "NH-005"
+	pos 10134 -51
+	government "Independent"
+	link "NH-261"
+	link "NH-411"
+	object
+		sprite star/f0
+	object
+		sprite planet/desert2
+		distance 150
+		period 150
+	object
+		sprite planet/gas2
+		distance 550
+		period 550
+	object "New Horizons 1"
+		sprite planet/station1
+		distance 1200
+		period 1200
+
+system "NH-411"
+	pos 10152 -81
+	government "Uninhabited"
+	link "NH-005"
+	link "NH-637"
+	object
+		sprite star/b-supergiant
+
+system "NH-637"
+	pos 10197 -102
+	government "Uninhabited"
+	link "NH-411"
+	link "NH-089"
+	object
+		sprite star/carbon
+
+system "NH-089"
+	pos 10238 -97
+	government "Uninhabited"
+	link "NH-637"
+	object
+		sprite star/a-supergiant
+
+planet "New Horizons 9"
+	attributes uninhabited
+	landscape land/station0
+	description `Once, this station was full of life and activity. All that ended with the invasion of the Ashkth. Now scorched hallways and empty hangers tell a grim tale of humanity driven mad in a vain attempt to escape a system's destruction. Lights flicker overhead as you walk these abandoned corridors, and a slow hiss of leaking air, punctuated by occasional cracks and snaps, fortells the station's imminent destruction.`
+
+planet "New Horizons 1"
+	landscape land/station25
+	description `New Horizons 1 was the first station built in the New Horizons cluster, and it remains in service even centuries later. There is very little left here, but so far the Ashkth have not seen fit to attack it, and so some basic supplies are available.`
+	spaceport `The spaceport here is run-down and mostly empty. Your footsteps on the steel floors are the loudest sounds in this deserted hunk of machinery, and you only pass other humans occasionally. Once, you see a glimpse of what could be a Korath back, but it departs before you can be certain.`
