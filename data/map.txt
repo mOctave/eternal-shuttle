@@ -1,35 +1,689 @@
-system "NH-043"
-	pos 10000 0
-	government "Uninhabited"
-	link "NH-081"
-	object
-		sprite star/m-supergiant
-	object "New Horizons 9"
-		sprite planet/station1b
-		distance 800
-		period 400
+# Copyright (c) 2023 by mOctave
+#
+# Eternal Shuttle is free software: you can redistribute it and/or modify it under the
+# terms of the GNU Affero General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Eternal Shuttle is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
 
-system "NH-081"
-	pos 10054 16
-	government "Uninhabited"
-	link "NH-043"
-	link "NH-261"
+system "Alpha Canis Majoris"
+	pos 10608.9 -73.3572
+	government Uninhabited
+	habitable 1705
+	belt 1360
+	link "WISE 0855-0714"
+	link ZA-452
+	asteroids "small rock" 38 2.8188
+	asteroids "medium rock" 63 2.436
+	asteroids "large rock" 54 2.262
+	asteroids "small metal" 4 1.8792
+	asteroids "medium metal" 5 2.0184
+	asteroids "large metal" 19 5.0112
+	minables lead 1 2.99768
 	object
-		sprite star/g-supergiant
-
-system "NH-261"
-	pos 10092 -27
-	government "Uninhabited"
-	link "NH-081"
-	link "NH-005"
+		sprite star/f5
+		distance 8.6963
+		period 12.0985
+		offset 180
 	object
-		sprite star/k-supergiant
+		sprite star/m8
+		distance 110.475
+		period 12.0985
+	object
+		sprite planet/lava4
+		distance 338.347
+		period 57.8785
+	object
+		sprite planet/rock6-b
+		distance 640.587
+		period 150.779
+	object
+		sprite planet/dust3
+		distance 1158.2
+		period 366.563
+	object
+		sprite planet/dust4
+		distance 1807.21
+		period 714.475
+		object
+			sprite planet/station1c Artifact
+			distance 100
+			period 100
+	object
+		sprite planet/tethys
+		distance 2162.3
+		period 935.078
 
-system "NH-005"
+system "Barnard's Star"
+	pos 10564.9 -238.357
+	government Confederacy
+	habitable 945
+	belt 1111
+	link Sol
+	link ZA-023
+	asteroids "small rock" 7 3.0628
+	asteroids "medium rock" 28 2.2971
+	asteroids "large rock" 12 1.4079
+	asteroids "small metal" 8 3.3592
+	asteroids "medium metal" 10 3.3345
+	asteroids "large metal" 6 1.5314
+	minables lead 5 3.38789
+	minables tungsten 1 3.12859
+	object
+		sprite star/g5
+		distance 31.1534
+		period 11.4822
+		offset 180
+	object
+		sprite star/m0
+		distance 60.8466
+		period 11.4822
+	object
+		sprite planet/lava4
+		distance 211.607
+		period 40.0533
+	object
+		sprite planet/cloud0
+		distance 542.697
+		period 164.505
+		object
+			sprite planet/rock3
+			distance 142
+			period 20.8529
+	object
+		sprite planet/ocean8 "Barnard's World"
+		distance 1057.14
+		period 447.24
+	object
+		sprite planet/gas11
+		distance 2617.7
+		period 1742.7
+		object
+			sprite planet/ice7
+			distance 245
+			period 12.6481
+		object
+			sprite planet/dust0
+			distance 389
+			period 25.3048
+
+system LA-098
+	pos 10201.9 -193.357
+	government Uninhabited
+	habitable 233.28
+	belt 1397
+	link LA-135
+	link LA-197
+	link LA-275
+	asteroids "small rock" 8 2.16
+	asteroids "medium rock" 20 6.48
+	asteroids "large rock" 49 4.4928
+	asteroids "small metal" 29 2.592
+	asteroids "medium metal" 30 4.1904
+	asteroids "large metal" 5 5.1408
+	minables copper 3 6.82863
+	minables neodymium 7 7.25384
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/gas6
+		distance 530.41
+		period 319.918
+		object
+			sprite planet/lava0
+			distance 277
+			period 11.7756
+		object
+			sprite planet/dust3
+			distance 375
+			period 18.5486
+	object
+		sprite planet/gas15
+		distance 1292.5
+		period 1216.93
+		object
+			sprite planet/oberon
+			distance 187
+			period 13.4605
+		object
+			sprite planet/rock7
+			distance 268
+			period 23.094
+	object
+		sprite planet/gas11
+		distance 2104.74
+		period 2528.83
+		object
+			sprite planet/dust1
+			distance 281
+			period 15.5359
+
+system LA-135
+	pos 10157.9 -222.357
+	government Uninhabited
+	habitable 858.28
+	belt 1931
+	link LA-098
+	link LA-197
+	link LA-404
+	asteroids "small rock" 1 2.688
+	asteroids "medium rock" 28 6.006
+	asteroids "large rock" 1 3.612
+	asteroids "small metal" 9 2.562
+	asteroids "medium metal" 33 5.25
+	asteroids "large metal" 37 2.31
+	minables iron 16 5.47077
+	object
+		sprite star/g5
+		distance 26.3645
+		period 13.0438
+		offset 180
+	object
+		sprite star/m4
+		distance 70.6355
+		period 13.0438
+	object
+		sprite planet/ice4
+		distance 246.125
+		period 52.7206
+	object
+		sprite planet/lava6
+		distance 571.125
+		period 186.356
+	object
+		sprite planet/gas5
+		distance 1483.34
+		period 780.018
+		object
+			sprite planet/desert4
+			distance 234
+			period 11.9034
+		object
+			sprite planet/tethys
+			distance 374
+			period 24.0522
+		object
+			sprite planet/rock3
+			distance 510
+			period 38.3003
+
+system LA-143
+	pos 10273.9 -187.357
+	government Uninhabited
+	habitable 1080
+	belt 1864
+	link LA-275
+	link LA-316
+	link LA-549
+	asteroids "small rock" 36 4.8576
+	asteroids "medium rock" 88 4.6736
+	asteroids "large rock" 3 5.4832
+	asteroids "small metal" 49 3.4592
+	asteroids "medium metal" 10 3.4224
+	asteroids "large metal" 5 4.968
+	minables silver 36 4.77376
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert8
+		distance 192.44
+		period 32.4931
+	object
+		sprite planet/rock12
+		distance 541.44
+		period 153.346
+		object
+			sprite planet/dust4
+			distance 147
+			period 18.5696
+	object
+		sprite planet/forest0
+		distance 1093.53
+		period 440.143
+	object
+		sprite planet/gas8
+		distance 2030.94
+		period 1114.02
+		object
+			sprite planet/dust1
+			distance 224
+			period 17.8463
+
+system LA-197
+	pos 10160.9 -181.357
+	government Uninhabited
+	habitable 425.92
+	belt 1563
+	link LA-098
+	link LA-135
+	asteroids "small rock" 79 6.552
+	asteroids "medium rock" 56 3.8808
+	asteroids "large rock" 80 3.528
+	asteroids "small metal" 1 2.6712
+	asteroids "medium metal" 39 5.8464
+	asteroids "large metal" 46 2.6712
+	minables iron 4 7.9056
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice4
+		distance 151.41
+		period 36.11
+	object
+		sprite planet/lava6
+		distance 332.77
+		period 117.655
+	object
+		sprite planet/gas1
+		distance 964.58
+		period 580.635
+	object
+		sprite planet/gas3
+		distance 1665.82
+		period 1317.77
+		object
+			sprite planet/miranda
+			distance 295
+			period 12.9419
+		object
+			sprite planet/dust4
+			distance 381
+			period 18.9956
+
+system LA-275
+	pos 10233.9 -156.357
+	government Uninhabited
+	habitable 135
+	belt 1314
+	link LA-098
+	link LA-143
+	link "Zahniser's Star"
+	asteroids "small rock" 25 4.6872
+	asteroids "medium rock" 97 2.835
+	asteroids "large rock" 26 4.0824
+	asteroids "small metal" 1 1.9278
+	asteroids "medium metal" 7 2.7216
+	asteroids "large metal" 7 4.8006
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/lava1
+		distance 168.41
+		period 75.2393
+	object
+		sprite planet/lava5
+		distance 509.02
+		period 395.362
+	object
+		sprite planet/gas4
+		distance 1089.02
+		period 1237.22
+		object
+			sprite planet/dust7
+			distance 249
+			period 13.8579
+		object
+			sprite planet/lava0
+			distance 367
+			period 24.7968
+	object
+		sprite planet/gas1
+		distance 2212.31
+		period 3582.3
+
+system LA-316
+	pos 10261.9 -226.357
+	government Uninhabited
+	habitable 912.6
+	belt 1998
+	link LA-143
+	link LA-702
+	asteroids "small rock" 5 6.804
+	asteroids "medium rock" 5 4.9248
+	asteroids "large rock" 1 3.564
+	asteroids "small metal" 9 7.1928
+	asteroids "medium metal" 3 3.6288
+	asteroids "large metal" 4 3.4992
+	object
+		sprite star/k0
+		distance 40.6038
+		period 10.7448
+		offset 180
+	object
+		sprite star/k5
+		distance 46.3962
+		period 10.7448
+	object
+		sprite planet/mars
+		distance 194.396
+		period 35.8882
+	object
+		sprite planet/ice4
+		distance 441.806
+		period 122.961
+	object
+		sprite planet/rock10
+		distance 665.616
+		period 227.382
+	object
+		sprite planet/gas2
+		distance 2277.03
+		period 1438.71
+		object
+			sprite planet/oberon
+			distance 185
+			period 15.2466
+		object
+			sprite planet/rock14
+			distance 335
+			period 37.152
+
+system LA-404
+	pos 10171.9 -267.357
+	government Uninhabited
+	habitable 233.28
+	belt 1188
+	link LA-135
+	asteroids "small rock" 11 3.213
+	asteroids "medium rock" 2 1.377
+	asteroids "large rock" 8 3.753
+	asteroids "large metal" 4 2.052
+	minables iron 6 3.0959
+	minables titanium 6 5.75215
+	minables tungsten 3 3.72791
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/cloud2
+		distance 326.21
+		period 154.3
+		object
+			sprite planet/callisto
+			distance 174
+			period 18.4627
+	object
+		sprite planet/lava7
+		distance 657.85
+		period 441.887
+	object
+		sprite planet/ice5
+		distance 1099.21
+		period 954.426
+	object
+		sprite planet/cloud1
+		distance 1462.65
+		period 1464.98
+	object
+		sprite planet/desert4
+		distance 2179.26
+		period 2664.31
+
+system LA-549
+	pos 10327.9 -168.357
+	government Uninhabited
+	habitable 858.28
+	belt 1152
+	link LA-143
+	asteroids "small rock" 3 2.0952
+	asteroids "medium rock" 17 2.6568
+	asteroids "large rock" 2 1.4256
+	asteroids "small metal" 3 1.4904
+	asteroids "medium metal" 57 1.3824
+	asteroids "large metal" 9 1.6416
+	minables tungsten 2 2.37892
+	object
+		sprite star/g5
+		distance 23.9183
+		period 11.2712
+	object
+		sprite star/m4
+		distance 64.0817
+		period 11.2712
+		offset 180
+	object
+		sprite planet/ice5
+		distance 233.042
+		period 48.5731
+	object
+		sprite planet/rock15
+		distance 513.532
+		period 158.89
+	object
+		sprite planet/ocean1
+		distance 953.022
+		period 401.698
+	object
+		sprite planet/desert4
+		distance 1748.02
+		period 997.851
+	object
+		sprite planet/gas16
+		distance 4543.86
+		period 4181.99
+		object
+			sprite planet/tethys
+			distance 179
+			period 12.606
+		object
+			sprite planet/dust1
+			distance 291
+			period 26.1298
+		object
+			sprite planet/rhea
+			distance 442
+			period 48.9137
+
+system LA-702
+	pos 10292.9 -270.357
+	government Uninhabited
+	habitable 233.28
+	belt 1069
+	link LA-316
+	asteroids "medium rock" 3 2.8314
+	asteroids "large rock" 2 1.4274
+	asteroids "medium metal" 1 2.9718
+	asteroids "large metal" 15 2.1528
+	minables iron 1 2.88777
+	minables titanium 3 3.91991
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock11
+		distance 153.25
+		period 49.6846
+	object
+		sprite planet/lava1
+		distance 311.25
+		period 143.809
+	object
+		sprite planet/gas17
+		distance 643.46
+		period 427.468
+		object
+			sprite planet/rock7
+			distance 196
+			period 11.7235
+	object
+		sprite planet/gas4
+		distance 1689.5
+		period 1818.69
+		object
+			sprite planet/oberon
+			distance 214
+			period 11.0412
+		object
+			sprite planet/dust4
+			distance 318
+			period 20.0004
+
+system "Lalande 21185"
+	pos 10426.9 -154.357
+	government Uninhabited
+	habitable 760
+	belt 1068
+	link "Luhman 16"
+	link ZA-009
+	asteroids "small rock" 11 3.6855
+	asteroids "medium rock" 19 5.427
+	asteroids "large rock" 30 2.511
+	asteroids "small metal" 15 3.6045
+	asteroids "medium metal" 22 3.3615
+	asteroids "large metal" 12 3.888
+	minables tungsten 12 5.43901
+	object
+		sprite star/g5
+		distance 16.5197
+		period 13.013
+		offset 180
+	object
+		sprite star/m8
+		distance 76.4803
+		period 13.013
+	object
+		sprite planet/rock2
+		distance 291.72
+		period 72.2941
+	object
+		sprite planet/gas7
+		distance 787.56
+		period 320.685
+		object
+			sprite planet/rock14
+			distance 265
+			period 15.3461
+	object
+		sprite planet/gas10
+		distance 1852.6
+		period 1156.98
+		object
+			sprite planet/dust5
+			distance 200
+			period 14.8882
+		object
+			sprite planet/tethys
+			distance 306
+			period 28.176
+		object
+			sprite planet/ice7
+			distance 438
+			period 48.2512
+
+system "Luhman 16"
+	pos 10491.9 -137.357
+	government Confederacy
+	habitable 320
+	belt 1822
+	link "Lalande 21185"
+	link "Rigil Kentaurus"
+	link "Wolf 359"
+	link ZA-131
+	asteroids "small rock" 125 6.2727
+	asteroids "medium rock" 80 7.6125
+	asteroids "large rock" 6 3.4104
+	asteroids "small metal" 11 8.5869
+	asteroids "medium metal" 34 3.654
+	asteroids "large metal" 15 5.481
+	minables iron 6 9.00248
+	minables lead 12 8.73677
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock12
+		distance 173.49
+		period 51.0971
+	object
+		sprite planet/gas1
+		distance 643.73
+		period 365.208
+	object
+		sprite planet/gas16
+		distance 1379.29
+		period 1145.43
+		object
+			sprite planet/dust1
+			distance 207
+			period 15.6766
+	object
+		sprite planet/uranus
+		distance 2139.7
+		period 2213.17
+		object
+			sprite planet/dust5
+			distance 253
+			period 17.1931
+		object
+			sprite planet/europa
+			distance 380
+			period 31.6482
+
+system "Luyten 726-8"
+	pos 10687.9 -154.357
+	government Uninhabited
+	habitable 425.92
+	belt 1651
+	link ZA-091
+	asteroids "small rock" 5 4.9329
+	asteroids "medium rock" 25 4.3848
+	asteroids "large rock" 10 5.481
+	asteroids "small metal" 11 11.6667
+	asteroids "medium metal" 1 11.3535
+	asteroids "large metal" 6 9.0045
+	minables lead 5 7.97958
+	minables titanium 2 8.28979
+	minables tungsten 8 7.74858
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/dust6
+		distance 182.29
+		period 47.7024
+	object
+		sprite planet/forest5
+		distance 471.3
+		period 198.309
+		object
+			sprite planet/dust3
+			distance 145
+			period 18.8534
+	object
+		sprite planet/fog0
+		distance 842.79
+		period 474.215
+	object
+		sprite planet/oberon
+		distance 1366.35
+		period 978.901
+	object
+		sprite planet/gas11
+		distance 2048.64
+		period 1797.19
+		object
+			sprite planet/dust1
+			distance 263
+			period 14.0673
+		object
+			sprite planet/dust5
+			distance 406
+			period 26.9815
+
+system NH-005
 	pos 10134 -51
-	government "Independent"
-	link "NH-261"
-	link "NH-411"
+	government Independent
+	link NH-261
+	link NH-411
 	object
 		sprite star/f0
 	object
@@ -45,35 +699,847 @@ system "NH-005"
 		distance 1200
 		period 1200
 
-system "NH-411"
-	pos 10152 -81
-	government "Uninhabited"
-	link "NH-005"
-	link "NH-637"
+system NH-043
+	pos 10000 0
+	government Uninhabited
+	link NH-081
 	object
-		sprite star/b-supergiant
+		sprite star/m-supergiant
+	object "New Horizons 9"
+		sprite planet/station1b
+		distance 800
+		period 400
 
-system "NH-637"
-	pos 10197 -102
-	government "Uninhabited"
-	link "NH-411"
-	link "NH-089"
+system NH-081
+	pos 10054 16
+	government Uninhabited
+	link NH-043
+	link NH-261
 	object
-		sprite star/carbon
+		sprite star/g-supergiant
 
-system "NH-089"
+system NH-089
 	pos 10238 -97
-	government "Uninhabited"
-	link "NH-637"
+	government Uninhabited
+	link NH-637
+	link "Zahniser's Star"
 	object
 		sprite star/a-supergiant
 
-planet "New Horizons 9"
-	attributes uninhabited
-	landscape land/station0
-	description `Once, this station was full of life and activity. All that ended with the invasion of the Ashkth. Now scorched hallways and empty hangers tell a grim tale of humanity driven mad in a vain attempt to escape a system's destruction. Lights flicker overhead as you walk these abandoned corridors, and a slow hiss of leaking air, punctuated by occasional cracks and snaps, fortells the station's imminent destruction.`
+system NH-098
+	pos 10035.4 -36.9012
+	government Uninhabited
+	habitable 1566.68
+	belt 1503
+	link NH-274
+	link NH-319
+	asteroids "medium rock" 7 2.5652
+	asteroids "large rock" 1 5.5176
+	asteroids "small metal" 1 5.9048
+	asteroids "large metal" 2 6.2436
+	object
+		sprite star/g-supergiant
+
+system NH-261
+	pos 10092 -27
+	government Uninhabited
+	link NH-005
+	link NH-081
+	object
+		sprite star/k-supergiant
+
+system NH-274
+	pos 10083.4 -71.9012
+	government Uninhabited
+	habitable 1505.92
+	belt 1990
+	link NH-098
+	link NH-319
+	asteroids "medium rock" 17 3.9338
+	asteroids "large rock" 1 5.6134
+	asteroids "small metal" 3 5.5692
+	asteroids "medium metal" 13 5.2598
+	asteroids "large metal" 3 5.9228
+	object
+		sprite star/g-supergiant
+
+system NH-319
+	pos 10047.4 -101.901
+	government Uninhabited
+	habitable 621.68
+	belt 1927
+	link NH-098
+	link NH-274
+	asteroids "large rock" 1 2.304
+	asteroids "small metal" 6 2.5152
+	asteroids "medium metal" 1 1.344
+	asteroids "large metal" 5 2.5344
+	minables platinum 1 4.48697
+	object
+		sprite star/k-supergiant
+
+system NH-411
+	pos 10152 -81
+	government Uninhabited
+	link NH-005
+	link NH-637
+	object
+		sprite star/b-supergiant
+
+system NH-637
+	pos 10197 -102
+	government Uninhabited
+	link NH-089
+	link NH-411
+	object
+		sprite star/carbon
+
+system "Rigil Kentaurus"
+	pos 10515.9 -193.357
+	government Confederacy
+	habitable 1080
+	belt 1715
+	link "Luhman 16"
+	link Sol
+	link Toliman
+	link ZA-023
+	asteroids "large metal" 1 3.8019
+	object
+		sprite star/g3
+		distance 38.238
+		period 10.3766
+		offset 180
+	object
+		sprite star/k0
+		distance 54.6257
+		period 10.3766
+	object
+		sprite planet/desert2
+		distance 346.547
+		period 74.8048
+	object
+		sprite planet/oberon
+		distance 749.037
+		period 237.706
+	object Kheiron
+		sprite planet/forest1
+		distance 976.197
+		period 353.665
+		object
+			sprite planet/rock17
+			distance 126
+			period 14.7361
+	object
+		sprite planet/rock15-b
+		distance 1718.2
+		period 825.842
+	object
+		sprite planet/gas13
+		distance 4080.61
+		period 3022.55
+
+system Sol
+	pos 10575.9 -177.357
+	government Confederacy
+	habitable 135
+	belt 1203
+	link "Barnard's Star"
+	link "Rigil Kentaurus"
+	asteroids "small rock" 3 3.3075
+	asteroids "medium rock" 60 2.457
+	asteroids "large rock" 12 2.2995
+	asteroids "small metal" 16 2.2365
+	asteroids "medium metal" 50 2.016
+	asteroids "large metal" 12 2.4885
+	minables aluminum 14 3.04531
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/mercury
+		distance 289.647
+		period 60.0000
+	object
+		sprite planet/venus
+		distance 533.534
+		period 150.000
+	object
+		sprite planet/rock2
+		distance 965.669
+		period 365.250
+		object
+			sprite planet/luna
+			distance 201.24
+			period 27.3
+	object Ares
+		sprite planet/mars
+		distance 1471.43
+		period 687.001
+	object
+		sprite planet/jupiter
+		distance 3339
+		period 2348.40
+		object
+			sprite planet/io
+			distance 238.221
+			period 10.614
+		object Europa
+			sprite planet/europa
+			distance 379.078
+			period 21.306
+		object
+			sprite planet/ganymede
+			distance 604.739
+			period 42.93
+		object
+			sprite planet/callisto
+			distance 811.717
+			period 66.76
+	object
+		sprite planet/saturn
+		distance 5562
+		period 5048.87
+		object
+			sprite planet/tethys
+			distance 590
+			period 1.9
+		object
+			sprite planet/rhea
+			distance 791
+			period 4.5
+		object
+			sprite planet/titan
+			distance 1222
+			period 16
+	object
+		sprite planet/uranus
+		distance 10373
+		period 12858.9
+		object
+			sprite planet/miranda
+			distance 195
+			period 1.4
+		object
+			sprite planet/oberon
+			distance 584
+			period 13
+	object
+		sprite planet/neptune
+		distance 15730
+		period 24012.7
+
+system Toliman
+	pos 10502.9 -209.357
+	government Confederacy
+	habitable 625
+	belt 1842
+	link "Rigil Kentaurus"
+	asteroids "small rock" 5 3.666
+	asteroids "medium rock" 3 3.549
+	asteroids "large rock" 1 2.34
+	asteroids "small metal" 13 2.067
+	asteroids "medium metal" 4 4.251
+	asteroids "large metal" 5 4.68
+	minables silicon 3 4.36667
+	minables titanium 3 5.91234
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert5
+		distance 232.69
+		period 56.7919
+	object
+		sprite planet/cloud1
+		distance 517.98
+		period 188.621
+	object
+		sprite planet/ocean8
+		distance 892.94
+		period 426.927
+	object
+		sprite planet/gas5
+		distance 1679.18
+		period 1100.95
+		object
+			sprite planet/dust4
+			distance 247
+			period 12.909
+		object
+			sprite planet/tethys
+			distance 331
+			period 20.0258
+
+system WF-004
+	pos 10328.9 -87.3571
+	government Uninhabited
+	habitable 719.96
+	belt 1624
+	link WF-008
+	link WF-013
+	link ZA-009
+	link "Zahniser's Star"
+	asteroids "large metal" 1 1.5484
+	object
+		sprite star/k0
+		distance 30.4577
+		period 13.5862
+		offset 180
+	object
+		sprite star/m4
+		distance 63.5423
+		period 13.5862
+	object
+		sprite planet/gas15
+		distance 674.832
+		period 261.336
+		object
+			sprite planet/dust5
+			distance 191
+			period 13.8946
+		object
+			sprite planet/rock0
+			distance 335
+			period 32.2749
+		object
+			sprite planet/ice8
+			distance 447
+			period 49.746
+	object
+		sprite planet/lava5
+		distance 1275.47
+		period 679.067
+	object
+		sprite planet/desert1
+		distance 1559.72
+		period 918.283
+	object
+		sprite planet/uranus
+		distance 2909.48
+		period 2339.53
+
+system WF-008
+	pos 10302.9 -61.3571
+	government Uninhabited
+	habitable 1566.68
+	belt 1097
+	link WF-004
+	link WF-013
+	asteroids "small rock" 20 3.4017
+	asteroids "medium rock" 15 8.5376
+	asteroids "large rock" 7 7.7372
+	asteroids "small metal" 2 3.4684
+	asteroids "medium metal" 39 8.5376
+	asteroids "large metal" 6 8.3375
+	minables aluminum 3 10.8472
+	minables lead 1 11.66
+	object
+		sprite star/g0
+		distance 39.7625
+		period 14.6347
+		offset 180
+	object
+		sprite star/k0
+		distance 88.2375
+		period 14.6347
+	object
+		sprite planet/desert3
+		distance 343.878
+		period 64.443
+		object
+			sprite planet/io
+			distance 146
+			period 18.3804
+	object
+		sprite planet/rock9
+		distance 718.768
+		period 194.739
+	object
+		sprite planet/gas8
+		distance 1008.26
+		period 323.539
+	object
+		sprite planet/neptune
+		distance 1994.95
+		period 900.465
+		object
+			sprite planet/ice0
+			distance 232
+			period 17.6061
+		object
+			sprite planet/rhea
+			distance 388
+			period 38.0785
+		object
+			sprite planet/ice7
+			distance 511
+			period 57.5524
+		object
+			sprite planet/rock0
+			distance 639
+			period 80.4792
+
+system WF-013
+	pos 10332.9 -23.3571
+	government Uninhabited
+	habitable 1080
+	belt 1078
+	link WF-004
+	link WF-008
+	link WF-031
+	asteroids "small rock" 108 4.9896
+	asteroids "medium rock" 80 8.3776
+	asteroids "large rock" 2 4.0656
+	asteroids "small metal" 5 6.0984
+	asteroids "medium metal" 57 5.9136
+	asteroids "large metal" 1 3.5728
+	minables aluminum 1 7.72833
+	minables titanium 31 9.20995
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice4
+		distance 198.56
+		period 34.0554
+	object
+		sprite planet/mars
+		distance 401.32
+		period 97.8553
+	object
+		sprite planet/rock15
+		distance 614.13
+		period 185.242
+	object
+		sprite planet/rock14
+		distance 856.38
+		period 305.034
+	object
+		sprite planet/gas7
+		distance 2756.54
+		period 1761.55
+		object
+			sprite planet/dust5
+			distance 270
+			period 15.7825
+		object
+			sprite planet/miranda
+			distance 389
+			period 27.2932
+		object
+			sprite planet/callisto
+			distance 504
+			period 40.251
+
+system WF-031
+	pos 10394.9 -40.3572
+	government Uninhabited
+	habitable 425.92
+	belt 1752
+	link WF-013
+	asteroids "small rock" 19 3.552
+	asteroids "medium rock" 35 3.36
+	asteroids "large rock" 3 4.416
+	asteroids "small metal" 2 2.752
+	asteroids "medium metal" 1 3.584
+	asteroids "large metal" 4 2.56
+	minables iron 7 4.52333
+	minables titanium 2 5.445
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/venus
+		distance 164.25
+		period 40.7994
+	object
+		sprite planet/ocean6
+		distance 527.5
+		period 234.817
+	object
+		sprite planet/titan
+		distance 1018.11
+		period 629.634
+	object
+		sprite planet/lava0
+		distance 1380.36
+		period 993.996
+	object
+		sprite planet/europa
+		distance 1518.36
+		period 1146.72
+	object
+		sprite planet/gas0
+		distance 3356.85
+		period 3769.59
+		object
+			sprite planet/dust4
+			distance 284
+			period 14.026
+		object
+			sprite planet/ice7
+			distance 436
+			period 26.68
+
+system "WISE 0855-0714"
+	pos 10545.9 -92.3572
+	government Uninhabited
+	habitable 486.68
+	belt 1353
+	link "Alpha Canis Majoris"
+	link ZA-131
+	asteroids "small rock" 2 5.8968
+	asteroids "large rock" 1 4.7952
+	asteroids "large metal" 2 7.1928
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice1
+		distance 176.25
+		period 42.426
+	object
+		sprite planet/cloud7
+		distance 554.54
+		period 236.776
+	object
+		sprite planet/gas16
+		distance 861.83
+		period 458.744
+	object
+		sprite planet/gas1
+		distance 1391.79
+		period 941.453
+	object
+		sprite planet/gas2
+		distance 3308.83
+		period 3451.04
+
+system "Wolf 359"
+	pos 10463.9 -117.357
+	government Confederacy
+	habitable 425.92
+	belt 1554
+	link "Luhman 16"
+	link ZA-131
+	asteroids "medium rock" 2 4.046
+	asteroids "large rock" 1 3.706
+	asteroids "small metal" 33 3.978
+	asteroids "medium metal" 12 4.352
+	asteroids "large metal" 1 4.828
+	minables titanium 8 4.35372
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/dust7
+		distance 156.61
+		period 37.9861
+	object
+		sprite planet/titan
+		distance 304.9
+		period 103.189
+	object
+		sprite planet/lava1
+		distance 492.15
+		period 211.613
+	object
+		sprite planet/cloud8
+		distance 713.11
+		period 369.089
+	object
+		sprite planet/neptune
+		distance 1271.6
+		period 878.864
+		object
+			sprite planet/io
+			distance 191
+			period 13.1517
+	object
+		sprite planet/gas12
+		distance 3768.49
+		period 4483.81
+		object
+			sprite planet/rock0
+			distance 308
+			period 14.1975
+
+system ZA-009
+	pos 10386.9 -123.357
+	government Uninhabited
+	habitable 851.84
+	belt 1953
+	link "Lalande 21185"
+	link WF-004
+	asteroids "small rock" 1 2.8
+	asteroids "medium rock" 5 5.12
+	asteroids "large rock" 5 5.6
+	asteroids "small metal" 3 2.4
+	asteroids "large metal" 1 3.76
+	object
+		sprite star/k5
+		distance 44
+		period 11.3137
+		offset 180
+	object
+		sprite star/k5
+		distance 44
+		period 11.3137
+	object
+		sprite planet/desert2
+		distance 239.25
+		period 50.7176
+	object
+		sprite planet/desert7
+		distance 517.06
+		period 161.136
+	object
+		sprite planet/ice5
+		distance 786.3
+		period 302.178
+	object
+		sprite planet/gas2
+		distance 2325.06
+		period 1536.5
+		object
+			sprite planet/rock17
+			distance 174
+			period 13.9072
+		object
+			sprite planet/ice7
+			distance 304
+			period 32.1163
+		object
+			sprite planet/rock3
+			distance 485
+			period 64.7183
+		object
+			sprite planet/ice0
+			distance 613
+			period 91.9613
+
+system ZA-023
+	pos 10507.9 -255.357
+	government Uninhabited
+	habitable 1715
+	belt 1334
+	link "Barnard's Star"
+	link "Rigil Kentaurus"
+	asteroids "small rock" 33 3.4162
+	asteroids "medium rock" 9 5.2896
+	asteroids "large rock" 8 5.0141
+	asteroids "medium metal" 49 4.1325
+	asteroids "large metal" 1 3.7468
+	minables neodymium 1 5.56763
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/desert6
+		distance 192.09
+		period 25.7149
+	object
+		sprite planet/desert3
+		distance 754.34
+		period 200.115
+		object
+			sprite planet/rock0
+			distance 180
+			period 25.1614
+	object
+		sprite planet/jupiter
+		distance 1306.38
+		period 456.071
+	object
+		sprite planet/gas3
+		distance 2169.67
+		period 976.154
+		object
+			sprite planet/miranda
+			distance 278
+			period 11.8395
+
+system ZA-091
+	pos 10690.9 -87.3572
+	government Uninhabited
+	habitable 320
+	belt 1667
+	link "Luyten 726-8"
+	link ZA-452
+	asteroids "small rock" 6 5.5539
+	asteroids "medium rock" 1 4.7277
+	asteroids "large rock" 3 2.5704
+	asteroids "medium metal" 1 6.7014
+	asteroids "large metal" 7 2.6622
+	minables copper 3 7.80905
+	minables lead 3 6.33967
+	minables neodymium 3 5.60498
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/desert8
+		distance 178.81
+		period 53.4654
+	object
+		sprite planet/lava4
+		distance 551.05
+		period 289.249
+	object
+		sprite planet/rock3
+		distance 1036.05
+		period 745.686
+	object
+		sprite planet/rhea
+		distance 1455.05
+		period 1241.09
+	object
+		sprite planet/gas17
+		distance 2372.86
+		period 2584.6
+
+system ZA-131
+	pos 10476.9 -72.3572
+	government Uninhabited
+	habitable 1715
+	belt 1740
+	link "Luhman 16"
+	link "WISE 0855-0714"
+	link "Wolf 359"
+	asteroids "small rock" 1 5.2858
+	asteroids "medium rock" 93 2.7664
+	asteroids "large rock" 1 5.7304
+	asteroids "small metal" 71 2.6676
+	asteroids "medium metal" 8 3.0628
+	asteroids "large metal" 55 6.5702
+	minables aluminum 22 4.54193
+	minables lead 10 4.98397
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock6
+		distance 211.84
+		period 29.781
+	object
+		sprite planet/ice1
+		distance 472.28
+		period 99.1351
+	object
+		sprite planet/cloud0
+		distance 702.04
+		period 179.668
+	object
+		sprite planet/gas12
+		distance 1493.05
+		period 557.236
+		object
+			sprite planet/dust0
+			distance 259
+			period 10.948
+		object
+			sprite planet/callisto
+			distance 390
+			period 20.2293
+	object
+		sprite planet/gas15
+		distance 3642.86
+		period 2123.69
+
+system ZA-452
+	pos 10653.9 -39.3572
+	government Uninhabited
+	habitable 3645
+	belt 1850
+	link "Alpha Canis Majoris"
+	link ZA-091
+	asteroids "small rock" 2 4.428
+	asteroids "medium rock" 2 4.212
+	asteroids "large rock" 3 3.456
+	asteroids "small metal" 15 4.608
+	asteroids "medium metal" 5 2.916
+	asteroids "large metal" 1 2.052
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/rock19
+		distance 198.36
+		period 18.5094
+	object
+		sprite planet/rock6
+		distance 481.85
+		period 70.0776
+	object
+		sprite planet/desert3
+		distance 866.09
+		period 168.871
+	object
+		sprite planet/jupiter
+		distance 1845.45
+		period 525.248
+
+system "Zahniser's Star"
+	pos 10276.9 -125.357
+	government Independent
+	habitable 233.28
+	belt 1137
+	link LA-275
+	link NH-089
+	link WF-004
+	asteroids "small rock" 34 5.8968
+	asteroids "medium rock" 5 5.8422
+	asteroids "large rock" 8 4.641
+	asteroids "medium metal" 89 2.73
+	asteroids "large metal" 9 7.4802
+	minables aluminum 6 4.89957
+	minables tungsten 21 6.94536
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock1
+		distance 152.76
+		period 49.4465
+	object
+		sprite planet/desert9
+		distance 445.77
+		period 246.483
+	object
+		sprite planet/gas5
+		distance 1159.61
+		period 1034.16
+		object
+			sprite planet/rock7
+			distance 239
+			period 12.287
+		object
+			sprite planet/callisto
+			distance 391
+			period 25.7106
+		object
+			sprite planet/dust4
+			distance 495
+			period 36.6231
+	object
+		sprite planet/gas15
+		distance 2691.61
+		period 3657.12
+		object
+			sprite planet/rock17 "Finite Heaven"
+			distance 177
+			period 12.3953
+		object
+			sprite planet/rock0
+			distance 283
+			period 25.0598
 
 planet "New Horizons 1"
 	landscape land/station25
 	description `New Horizons 1 was the first station built in the New Horizons cluster, and it remains in service even centuries later. There is very little left here, but so far the Ashkth have not seen fit to attack it, and so some basic supplies are available.`
 	spaceport `The spaceport here is run-down and mostly empty. Your footsteps on the steel floors are the loudest sounds in this deserted hunk of machinery, and you only pass other humans occasionally. Once, you see a glimpse of what could be a Korath back, but it departs before you can be certain.`
+
+planet "New Horizons 9"
+	attributes uninhabited
+	landscape land/station0
+	description `Once, this station was full of life and activity. All that ended with the invasion of the Ashkth. Now scorched hallways and empty hangers tell a grim tale of humanity driven mad in a vain attempt to escape a system's destruction. Lights flicker overhead as you walk these abandoned corridors, and a slow hiss of leaking air, punctuated by occasional cracks and snaps, fortells the station's imminent destruction.`
