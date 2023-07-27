@@ -64,7 +64,7 @@ system "Barnard's Star"
 	government Confederacy
 	habitable 945
 	belt 1111
-	link Sol
+	link Vespera
 	link ZA-023
 	asteroids "small rock" 7 3.0628
 	asteroids "medium rock" 28 2.2971
@@ -684,6 +684,8 @@ system NH-005
 	government Independent
 	link NH-261
 	link NH-411
+	fleet "Small Halith's Gang" 3000
+	fleet "Large Halith's Gang" 4000
 	object
 		sprite star/f0
 	object
@@ -703,6 +705,8 @@ system NH-043
 	pos 10000 0
 	government Uninhabited
 	link NH-081
+	fleet "Small Halith's Gang" 5000
+	fleet "Large Halith's Gang" 8000
 	object
 		sprite star/m-supergiant
 	object "New Horizons 9"
@@ -715,6 +719,8 @@ system NH-081
 	government Uninhabited
 	link NH-043
 	link NH-261
+	fleet "Small Halith's Gang" 5000
+	fleet "Large Halith's Gang" 8000
 	object
 		sprite star/g-supergiant
 
@@ -723,6 +729,8 @@ system NH-089
 	government Uninhabited
 	link NH-637
 	link "Zahniser's Star"
+	fleet "Small Halith's Gang" 2000
+	fleet "Large Halith's Gang" 3000
 	object
 		sprite star/a-supergiant
 
@@ -737,6 +745,8 @@ system NH-098
 	asteroids "large rock" 1 5.5176
 	asteroids "small metal" 1 5.9048
 	asteroids "large metal" 2 6.2436
+	fleet "Small Halith's Gang" 2000
+	fleet "Large Halith's Gang" 3000
 	object
 		sprite star/g-supergiant
 
@@ -745,6 +755,8 @@ system NH-261
 	government Uninhabited
 	link NH-005
 	link NH-081
+	fleet "Small Halith's Gang" 4000
+	fleet "Large Halith's Gang" 6000
 	object
 		sprite star/k-supergiant
 
@@ -760,6 +772,8 @@ system NH-274
 	asteroids "small metal" 3 5.5692
 	asteroids "medium metal" 13 5.2598
 	asteroids "large metal" 3 5.9228
+	fleet "Small Halith's Gang" 2000
+	fleet "Large Halith's Gang" 3000
 	object
 		sprite star/g-supergiant
 
@@ -775,6 +789,8 @@ system NH-319
 	asteroids "medium metal" 1 1.344
 	asteroids "large metal" 5 2.5344
 	minables platinum 1 4.48697
+	fleet "Small Halith's Gang" 2000
+	fleet "Large Halith's Gang" 3000
 	object
 		sprite star/k-supergiant
 
@@ -783,6 +799,8 @@ system NH-411
 	government Uninhabited
 	link NH-005
 	link NH-637
+	fleet "Small Halith's Gang" 2000
+	fleet "Large Halith's Gang" 3000
 	object
 		sprite star/b-supergiant
 
@@ -791,6 +809,8 @@ system NH-637
 	government Uninhabited
 	link NH-089
 	link NH-411
+	fleet "Small Halith's Gang" 2000
+	fleet "Large Halith's Gang" 3000
 	object
 		sprite star/carbon
 
@@ -800,7 +820,7 @@ system "Rigil Kentaurus"
 	habitable 1080
 	belt 1715
 	link "Luhman 16"
-	link Sol
+	link Vespera
 	link Toliman
 	link ZA-023
 	asteroids "large metal" 1 3.8019
@@ -838,7 +858,7 @@ system "Rigil Kentaurus"
 		distance 4080.61
 		period 3022.55
 
-system Sol
+system Vespera
 	pos 10575.9 -177.357
 	government Confederacy
 	habitable 135
@@ -1497,7 +1517,7 @@ system "Zahniser's Star"
 	object
 		sprite star/m4
 		period 10
-	object
+	object "Finite Heaven"
 		sprite planet/rock1
 		distance 152.76
 		period 49.4465
@@ -1526,7 +1546,7 @@ system "Zahniser's Star"
 		distance 2691.61
 		period 3657.12
 		object
-			sprite planet/rock17 "Finite Heaven"
+			sprite planet/rock17
 			distance 177
 			period 12.3953
 		object
@@ -1535,11 +1555,48 @@ system "Zahniser's Star"
 			period 25.0598
 
 planet "New Horizons 1"
+	attributes station "new horizons"
 	landscape land/station25
 	description `New Horizons 1 was the first station built in the New Horizons cluster, and it remains in service even centuries later. There is very little left here, but so far the Ashkth have not seen fit to attack it, and so some basic supplies are available.`
 	spaceport `The spaceport here is run-down and mostly empty. Your footsteps on the steel floors are the loudest sounds in this deserted hunk of machinery, and you only pass other humans occasionally. Once, you see a glimpse of what could be a Korath back, but it departs before you can be certain.`
 
 planet "New Horizons 9"
-	attributes uninhabited
+	attributes station uninhabited "new horizons"
 	landscape land/station0
 	description `Once, this station was full of life and activity. All that ended with the invasion of the Ashkth. Now scorched hallways and empty hangers tell a grim tale of humanity driven mad in a vain attempt to escape a system's destruction. Lights flicker overhead as you walk these abandoned corridors, and a slow hiss of leaking air, punctuated by occasional cracks and snaps, fortells the station's imminent destruction.`
+
+planet "Finite Heaven"
+	attributes "new horizons" "luminara" "wolf" shipping
+	description `Finite Heaven lies at the junction of four important sectors on the 35th hyperfabric. As the link between the New Horizons, Luminara, Z-Alpha, and Wolf sectors, it is the primary hub for trade in this part of the galaxy. With the recent invasion of the Ashkth and the decimation of the New Horizons sector, however, the planet is in chaos. What ineffective governance there was at the beginning of the crisis has collapsed, and power is now in the hands of a few individuals. Those with means are doing whatever they can to get off-planet, and those who are left struggle to work in the smoky haze caused by the fires that rage in the capital every night.`
+	spaceport `The spaceport here was once grandiose: now it is just a sprawling ruin. Despite your ship's small size, the spaceport has seen fit to provide it with armed guards, who so far have kept any harm from coming to it. The main buildings have been razed, and the few that remain have shattered windows, occasionally but infrequently covered with grafittied pieces of wood or plastic.`
+	spaceport `	Unsurprisingly, you seem to have been one of few pilots crazy enough to land here. There's only a few other ships in sight, most of which seem to be merchants offloading food to hungry mobs as fast as possible. These ships are consistently kept under heavy guard, and a couple even have their shields up despite being in atmosphere.`
+
+planet "Artifact"
+	attributes station "z-alpha"
+	description `Once, in the distant past, this system was the go-to destination for tourists seeking to escape the confines of Earth. Many centuries later, Earth is no more, and the flow of tourism has long since ceased. No one lives planetside anymore, nor has there been any significant planetary population in the last millenium. Despite this, however, this old station remains, shouting silent defiance at the universe that has abandoned it.`
+	spaceport `The spaceport on Artifact is no different from the spaceports you're used to on stations: noisy, cramped, and highly efficient. Although few starships ever come here anymore, all the berths are still kept in proper working condition, better than many of those on stations nearer to Barnard's Wold. It is obvious that people here take pride in who they are, as shown by the polished plaques and clean floors; the soft whirr of happy machinery and the bearing of those who walk among it.`
+
+planet "Barnard's World"
+	attributes "z-alpha" urban rich mining
+	description `Barnard's World is the capital of the Confederacy, the largest extant nation in human space. While the rest of the galaxy struggles, Barnard's World remains as rich as it ever was, thanks to the large deposits of rhodium found beneath its surface. Above that surface looms an increasingly large metropolis, home of some 15 billion people.`
+	description `	While the GDP of Barnard's World is exceptionally high, many citizens still struggle to make a living. The lower streets are full of flocks of homeless people, who have no job and no means of obtaining one in an economy that requires little labour to continue. Centuries of libertarian policy-making have had a mark on this planet, and while the average resident enjoys a higher standard of living than their ancestors, many do not.`
+	spaceport `	The spaceport on Barnard's World is what appears to be a massive amphitheather, several kilometres across. Inset into the metal floor of the amphitheather are several hundred concrete landing pads of varying sizes, most of which are presently occupied. Aircars and automobiles flit back and forth, and pilots barter with prospective customers in the midst of it all. At one end of the open oval is a rail station, through which hundreds of tons of freight pass per minute: some bound for the planet's ever-hungry citizens, and some bound for the stars.`
+
+planet "Europa"
+	attributes "z-alpha" research medical military frontier
+	description `Europa was originally terraformed by a long-forgotten religious minority fleeing persecution on Earth, way back in the 34th century. Since then, it has become something a haven for all those whose views do not match those of the socialites on Barnard's World. Europa, while technically part of the Confederacy, operates with partial autonomy, and boasts a large private navy. Because of this, its citizens live without fear of the pirates that are all too common these days, and instead are able to focus on living life and conducting research on a plethora of topics.`
+	spaceport `The spaceport on Europa is large, well maintained, and very modern. The landing pads are made not of concrete but a similar metallic alloy to that used for warship hulls. Most of these pads are currently occupied, some by merchants and many by naval vessels. However, the majority of the landing pads seem to be part of the navy surplus shipyard, stocking various new ship models for those with the money and license to buy them. Unfortunately, you do not have said license.`
+
+planet "Ares"
+	attributes "z-alpha" farming frontier
+	description `After Earth was finally rendered uninhabitable by the nuclear bombs dropped in its atmosphere, as many refugees as had the means to fled the planet, escaping to Ares, the fourth planet in orbit around Earth's mother star. For the most part, these refugees moved on to other worlds, but some stayed on inhospitable Ares, farming the rocky soil and breathing the thin air.`
+	description `	Because it is so close to the Europan naval base - and has nothing worth stealing on its surface - piracy is not much of a risk on Ares, and its denizens spend their days mostly in peace, farming their little patches of dust by hand until they are too old to work.`
+	spaceport `	The spaceport on Ares consists of a few scattered and windblown outbuildings surrounded by an unorderly array of landing pads hewn into the solid rock. Each landing pad actually lies beneath the planet's natural surface level, and a retaining wall keeps the dirt from falling into it. Steps lead up to the dusty surface, where narrow, grimy paths snake between the pits.`
+
+planet "Kheiron"
+	attributes "z-alpha" urban research factory shipping
+	description `Kheiron is the second-oldest human-inhabited planet in the galaxy, beaten only by Ares. It was settled long before humanity discovered how to make hyperlanes or attune systems to specific hyperfabrics. In fact, it was settled even before the invention of the hyperdrive. To this day, it remains the major factory world of the Confederacy, as well as being home to some of its most prestigious universities.`
+	description `	While the air here remains hopelessly polluted, Kheiron has so far been spared nuclear fallout, and so the life expectency is as high here as anywhere else in the Confederacy. Because Kheiron lies on the primary trade route between Barnard's World and the Luminara and Wolf sectors, it also is a primary stopover for pilots looking to top up their fuel tanks and cargo holds.`
+	spaceport `Kheiron boasts no fewer than three spaceports. The oldest, placed in an inhospitable desert, was built in the era before hyperspace travel became popular. Although it has long since fallen into direpair, it is still used by smugglers and pilots looking to avoid paying tariffs on their cargos.`
+	spaceport `	The second of Kheiron's spaceports, known as the "New Port," is everything the other is not: gleaming, large, and magnificent for all its obvious age. Although the New Port is no longer large enough to properly handle the traffic Kheiron now receives, it is still in operation after more than a millenium, and is a symbol of planetary pride for Kheironites.`
+	spaceport `	The last of Kheiron's spaceports, on the other hand, is nothing more than a concrete machine for handling large amounts of freight quickly. Here, large freight convoys stop over on their way between Barnard's Star and everywhere else, offloading and onloading cargo as seems good to their captains.`

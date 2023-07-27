@@ -32,13 +32,13 @@ start "Eternal Shuttle"
 			"shields" 500
 			"hull" 600
 			"required crew" 1
-			"bunks" 6
+			"bunks" 1
 			"mass" 70
 			"drag" 1.7
 			"heat dissipation" .8
 			"fuel capacity" 400
 			"cargo space" 20
-			"outfit space" 120
+			"outfit space" 130
 			"weapon capacity" 10
 			"engine capacity" 60
 			weapon
@@ -63,6 +63,7 @@ start "Eternal Shuttle"
 		explode "small explosion" 5
 
 		description "This ancient shuttle is a model dating back to the Republican era. A small brand on its side declares it to be proudly manufacture by Betelgeuse Shipyards in 3012, making it well over a millenium old. Not much of the original hull remains, but it is a bucket of bolts nonetheless."
+		description "	Over the course of its long and varied existence, someone saw fit to replace this vessel's extra bunk rooms with more outfit space, turning it into a passable frontier courier boat. Naturally, it has not seen much use in that area, instead being used as a low-maintenance cargo hauler."
 	
 	conversation "Eternal Shuttle: Beginning"
 

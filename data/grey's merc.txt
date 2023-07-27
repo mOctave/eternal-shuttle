@@ -11,18 +11,6 @@
 # You should have received a copy of the GNU Affero General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-government "Grey's Mercenaries"
-	swizzle 5
-	
-	"player reputation" 15
-	"attitude toward"
-		"Pirate" -.2
-		"Merchant" .1
-	"bribe" .05
-	"fine" 0
-	"friendly hail" "friendly grey's merc"
-	"hostile hail" "hostile grey's merc"
-
 # Phrases
 phrase "friendly grey's merc"
 	phrase
