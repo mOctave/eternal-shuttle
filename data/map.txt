@@ -25,6 +25,8 @@ system "Alpha Canis Majoris"
 	asteroids "medium metal" 5 2.0184
 	asteroids "large metal" 19 5.0112
 	minables lead 1 2.99768
+	fleet "Small Trence's Gang" 2500
+	fleet "Large Trence's Gang" 3500
 	object
 		sprite star/f5
 		distance 8.6963
@@ -50,8 +52,8 @@ system "Alpha Canis Majoris"
 		sprite planet/dust4
 		distance 1807.21
 		period 714.475
-		object
-			sprite planet/station1c Artifact
+		object Artifact
+			sprite planet/station1c
 			distance 100
 			period 100
 	object
@@ -74,6 +76,7 @@ system "Barnard's Star"
 	asteroids "large metal" 6 1.5314
 	minables lead 5 3.38789
 	minables tungsten 1 3.12859
+	fleet "Large Renfrew's Gang" 8000
 	object
 		sprite star/g5
 		distance 31.1534
@@ -95,8 +98,8 @@ system "Barnard's Star"
 			sprite planet/rock3
 			distance 142
 			period 20.8529
-	object
-		sprite planet/ocean8 "Barnard's World"
+	object "Barnard's World"
+		sprite planet/ocean8
 		distance 1057.14
 		period 447.24
 	object
@@ -129,6 +132,8 @@ system LA-098
 	minables copper 3 6.82863
 	minables neodymium 7 7.25384
 	fleet "Small Halith's Gang" 10000
+	fleet "Small Zorbad's Gang" 2000
+	fleet "Large Zorbad's Gang" 3000
 	object
 		sprite star/m4
 		period 10
@@ -180,6 +185,8 @@ system LA-135
 	asteroids "medium metal" 33 5.25
 	asteroids "large metal" 37 2.31
 	minables iron 16 5.47077
+	fleet "Small Zorbad's Gang" 1500
+	fleet "Large Zorbad's Gang" 2500
 	object
 		sprite star/g5
 		distance 26.3645
@@ -230,6 +237,8 @@ system LA-143
 	asteroids "large metal" 5 4.968
 	minables silver 36 4.77376
 	fleet "Small Halith's Gang" 10000
+	fleet "Small Zorbad's Gang" 2000
+	fleet "Large Zorbad's Gang" 3000
 	object
 		sprite star/g0
 		period 10
@@ -272,6 +281,8 @@ system LA-197
 	asteroids "medium metal" 39 5.8464
 	asteroids "large metal" 46 2.6712
 	minables iron 4 7.9056
+	fleet "Small Zorbad's Gang" 2000
+	fleet "Large Zorbad's Gang" 3000
 	object
 		sprite star/k5
 		period 10
@@ -316,6 +327,8 @@ system LA-275
 	asteroids "large metal" 7 4.8006
 	fleet "Small Halith's Gang" 6000
 	fleet "Large Halith's Gang" 10000
+	fleet "Small Zorbad's Gang" 3000
+	fleet "Large Zorbad's Gang" 4000
 	object
 		sprite star/m8
 		period 10
@@ -357,6 +370,8 @@ system LA-316
 	asteroids "small metal" 9 7.1928
 	asteroids "medium metal" 3 3.6288
 	asteroids "large metal" 4 3.4992
+	fleet "Small Zorbad's Gang" 3000
+	fleet "Large Zorbad's Gang" 4000
 	object
 		sprite star/k0
 		distance 40.6038
@@ -404,6 +419,8 @@ system LA-404
 	minables iron 6 3.0959
 	minables titanium 6 5.75215
 	minables tungsten 3 3.72791
+	fleet "Small Zorbad's Gang" 1000
+	fleet "Large Zorbad's Gang" 2000
 	object
 		sprite star/m4
 		period 10
@@ -445,6 +462,8 @@ system LA-549
 	asteroids "medium metal" 57 1.3824
 	asteroids "large metal" 9 1.6416
 	minables tungsten 2 2.37892
+	fleet "Small Zorbad's Gang" 1500
+	fleet "Large Zorbad's Gang" 2000
 	object
 		sprite star/g5
 		distance 23.9183
@@ -499,6 +518,8 @@ system LA-702
 	asteroids "large metal" 15 2.1528
 	minables iron 1 2.88777
 	minables titanium 3 3.91991
+	fleet "Small Zorbad's Gang" 4000
+	fleet "Large Zorbad's Gang" 7000
 	object
 		sprite star/m4
 		period 10
@@ -545,6 +566,9 @@ system "Lalande 21185"
 	asteroids "medium metal" 22 3.3615
 	asteroids "large metal" 12 3.888
 	minables tungsten 12 5.43901
+	fleet "Small Renfrew's Gang" 3000
+	fleet "Large Renfrew's Gang" 6000
+	fleet "Large Leary's Gang" 10000
 	object
 		sprite star/g5
 		distance 16.5197
@@ -600,6 +624,10 @@ system "Luhman 16"
 	asteroids "large metal" 15 5.481
 	minables iron 6 9.00248
 	minables lead 12 8.73677
+	fleet "Small Renfrew's Gang" 2500
+	fleet "Large Renfrew's Gang" 5500
+	fleet "Small Trence's Gang" 5000
+	fleet "Large Trence's Gang" 5000
 	object
 		sprite star/m0
 		period 10
@@ -647,6 +675,8 @@ system "Luyten 726-8"
 	minables lead 5 7.97958
 	minables titanium 2 8.28979
 	minables tungsten 8 7.74858
+	fleet "Small Trence's Gang" 1500
+	fleet "Large Trence's Gang" 2500
 	object
 		sprite star/k5
 		period 10
@@ -735,6 +765,7 @@ system NH-089
 	link "Zahniser's Star"
 	fleet "Small Halith's Gang" 2000
 	fleet "Large Halith's Gang" 3000
+	fleet "Small Zorbad's Gang" 7000
 	object
 		sprite star/a-supergiant
 
@@ -824,10 +855,12 @@ system "Rigil Kentaurus"
 	habitable 1080
 	belt 1715
 	link "Luhman 16"
-	link Vespera
 	link Toliman
+	link Vespera
 	link ZA-023
 	asteroids "large metal" 1 3.8019
+	fleet "Small Renfrew's Gang" 2500
+	fleet "Large Renfrew's Gang" 5000
 	object
 		sprite star/g3
 		distance 38.238
@@ -862,6 +895,50 @@ system "Rigil Kentaurus"
 		distance 4080.61
 		period 3022.55
 
+system Toliman
+	pos 10502.9 -209.357
+	government Confederacy
+	habitable 625
+	belt 1842
+	link "Rigil Kentaurus"
+	asteroids "small rock" 5 3.666
+	asteroids "medium rock" 3 3.549
+	asteroids "large rock" 1 2.34
+	asteroids "small metal" 13 2.067
+	asteroids "medium metal" 4 4.251
+	asteroids "large metal" 5 4.68
+	minables silicon 3 4.36667
+	minables titanium 3 5.91234
+	fleet "Small Renfrew's Gang" 2000
+	fleet "Large Renfrew's Gang" 4000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert5
+		distance 232.69
+		period 56.7919
+	object
+		sprite planet/cloud1
+		distance 517.98
+		period 188.621
+	object
+		sprite planet/ocean8
+		distance 892.94
+		period 426.927
+	object
+		sprite planet/gas5
+		distance 1679.18
+		period 1100.95
+		object
+			sprite planet/dust4
+			distance 247
+			period 12.909
+		object
+			sprite planet/tethys
+			distance 331
+			period 20.0258
+
 system Vespera
 	pos 10575.9 -177.357
 	government Confederacy
@@ -876,21 +953,22 @@ system Vespera
 	asteroids "medium metal" 50 2.016
 	asteroids "large metal" 12 2.4885
 	minables aluminum 14 3.04531
+	fleet "Large Renfrew's Gang" 10000
 	object
 		sprite star/g0
 		period 10
 	object
 		sprite planet/mercury
 		distance 289.647
-		period 60.0000
+		period 60
 	object
 		sprite planet/venus
 		distance 533.534
-		period 150.000
+		period 150
 	object
 		sprite planet/rock2
 		distance 965.669
-		period 365.250
+		period 365.25
 		object
 			sprite planet/luna
 			distance 201.24
@@ -902,7 +980,7 @@ system Vespera
 	object
 		sprite planet/jupiter
 		distance 3339
-		period 2348.40
+		period 2348.4
 		object
 			sprite planet/io
 			distance 238.221
@@ -952,48 +1030,6 @@ system Vespera
 		distance 15730
 		period 24012.7
 
-system Toliman
-	pos 10502.9 -209.357
-	government Confederacy
-	habitable 625
-	belt 1842
-	link "Rigil Kentaurus"
-	asteroids "small rock" 5 3.666
-	asteroids "medium rock" 3 3.549
-	asteroids "large rock" 1 2.34
-	asteroids "small metal" 13 2.067
-	asteroids "medium metal" 4 4.251
-	asteroids "large metal" 5 4.68
-	minables silicon 3 4.36667
-	minables titanium 3 5.91234
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/desert5
-		distance 232.69
-		period 56.7919
-	object
-		sprite planet/cloud1
-		distance 517.98
-		period 188.621
-	object
-		sprite planet/ocean8
-		distance 892.94
-		period 426.927
-	object
-		sprite planet/gas5
-		distance 1679.18
-		period 1100.95
-		object
-			sprite planet/dust4
-			distance 247
-			period 12.909
-		object
-			sprite planet/tethys
-			distance 331
-			period 20.0258
-
 system WF-004
 	pos 10328.9 -87.3571
 	government Uninhabited
@@ -1006,6 +1042,10 @@ system WF-004
 	asteroids "large metal" 1 1.5484
 	fleet "Small Halith's Gang" 8000
 	fleet "Large Halith's Gang" 5000
+	fleet "Small Renfrew's Gang" 5000
+	fleet "Large Renfrew's Gang" 7000
+	fleet "Small Leary's Gang" 4000
+	fleet "Large Leary's Gang" 3000
 	object
 		sprite star/k0
 		distance 30.4577
@@ -1059,6 +1099,8 @@ system WF-008
 	asteroids "large metal" 6 8.3375
 	minables aluminum 3 10.8472
 	minables lead 1 11.66
+	fleet "Small Leary's Gang" 3000
+	fleet "Large Leary's Gang" 4000
 	object
 		sprite star/g0
 		distance 39.7625
@@ -1121,6 +1163,8 @@ system WF-013
 	asteroids "large metal" 1 3.5728
 	minables aluminum 1 7.72833
 	minables titanium 31 9.20995
+	fleet "Small Leary's Gang" 2500
+	fleet "Large Leary's Gang" 4000
 	object
 		sprite star/g0
 		period 10
@@ -1171,6 +1215,8 @@ system WF-031
 	asteroids "large metal" 4 2.56
 	minables iron 7 4.52333
 	minables titanium 2 5.445
+	fleet "Small Leary's Gang" 2000
+	fleet "Large Leary's Gang" 3000
 	object
 		sprite star/k5
 		period 10
@@ -1217,6 +1263,8 @@ system "WISE 0855-0714"
 	asteroids "small rock" 2 5.8968
 	asteroids "large rock" 1 4.7952
 	asteroids "large metal" 2 7.1928
+	fleet "Small Trence's Gang" 2500
+	fleet "Large Trence's Gang" 4000
 	object
 		sprite star/k0
 		period 10
@@ -1254,6 +1302,10 @@ system "Wolf 359"
 	asteroids "medium metal" 12 4.352
 	asteroids "large metal" 1 4.828
 	minables titanium 8 4.35372
+	fleet "Small Renfrew's Gang" 3000
+	fleet "Large Renfrew's Gang" 6000
+	fleet "Small Trence's Gang" 4000
+	fleet "Large Trence's Gang" 6000
 	object
 		sprite star/k5
 		period 10
@@ -1302,6 +1354,10 @@ system ZA-009
 	asteroids "large rock" 5 5.6
 	asteroids "small metal" 3 2.4
 	asteroids "large metal" 1 3.76
+	fleet "Small Renfrew's Gang" 3000
+	fleet "Large Renfrew's Gang" 6000
+	fleet "Small Leary's Gang" 4000
+	fleet "Large Leary's Gang" 8000
 	object
 		sprite star/k5
 		distance 44
@@ -1357,6 +1413,8 @@ system ZA-023
 	asteroids "medium metal" 49 4.1325
 	asteroids "large metal" 1 3.7468
 	minables neodymium 1 5.56763
+	fleet "Small Renfrew's Gang" 4000
+	fleet "Large Renfrew's Gang" 4000
 	object
 		sprite star/f5
 		period 10
@@ -1400,6 +1458,8 @@ system ZA-091
 	minables copper 3 7.80905
 	minables lead 3 6.33967
 	minables neodymium 3 5.60498
+	fleet "Small Trence's Gang" 2000
+	fleet "Large Trence's Gang" 3000
 	object
 		sprite star/m0
 		period 10
@@ -1440,6 +1500,10 @@ system ZA-131
 	asteroids "large metal" 55 6.5702
 	minables aluminum 22 4.54193
 	minables lead 10 4.98397
+	fleet "Small Renfrew's Gang" 4000
+	fleet "Large Renfrew's Gang" 6000
+	fleet "Small Trence's Gang" 3000
+	fleet "Large Trence's Gang" 4500
 	object
 		sprite star/f5
 		period 10
@@ -1485,6 +1549,8 @@ system ZA-452
 	asteroids "small metal" 15 4.608
 	asteroids "medium metal" 5 2.916
 	asteroids "large metal" 1 2.052
+	fleet "Small Trence's Gang" 2000
+	fleet "Large Trence's Gang" 3000
 	object
 		sprite star/a5
 		period 10
@@ -1522,6 +1588,9 @@ system "Zahniser's Star"
 	minables tungsten 21 6.94536
 	fleet "Small Halith's Gang" 5000
 	fleet "Large Halith's Gang" 6000
+	fleet "Small Zorbad's Gang" 5000
+	fleet "Large Zorbad's Gang" 6000
+	fleet "Large Leary's Gang" 8000
 	object
 		sprite star/m4
 		period 10
@@ -1562,6 +1631,42 @@ system "Zahniser's Star"
 			distance 283
 			period 25.0598
 
+planet Ares
+	attributes z-alpha farming frontier
+	description `After Earth was finally rendered uninhabitable by the nuclear bombs dropped in its atmosphere, as many refugees as had the means to fled the planet, escaping to Ares, the fourth planet in orbit around Earth's mother star. For the most part, these refugees moved on to other worlds, but some stayed on inhospitable Ares, farming the rocky soil and breathing the thin air.`
+	description `	Because it is so close to the Europan naval base - and has nothing worth stealing on its surface - piracy is not much of a risk on Ares, and its denizens spend their days mostly in peace, farming their little patches of dust by hand until they are too old to work.`
+	spaceport `	The spaceport on Ares consists of a few scattered and windblown outbuildings surrounded by an unorderly array of landing pads hewn into the solid rock. Each landing pad actually lies beneath the planet's natural surface level, and a retaining wall keeps the dirt from falling into it. Steps lead up to the dusty surface, where narrow, grimy paths snake between the pits.`
+
+planet Artifact
+	attributes station z-alpha
+	description `Once, in the distant past, this system was the go-to destination for tourists seeking to escape the confines of Earth. Many centuries later, Earth is no more, and the flow of tourism has long since ceased. No one lives planetside anymore, nor has there been any significant planetary population in the last millenium. Despite this, however, this old station remains, shouting silent defiance at the universe that has abandoned it.`
+	spaceport `The spaceport on Artifact is no different from the spaceports you're used to on stations: noisy, cramped, and highly efficient. Although few starships ever come here anymore, all the berths are still kept in proper working condition, better than many of those on stations nearer to Barnard's Wold. It is obvious that people here take pride in who they are, as shown by the polished plaques and clean floors; the soft whirr of happy machinery and the bearing of those who walk among it.`
+
+planet "Barnard's World"
+	attributes z-alpha urban rich mining
+	description `Barnard's World is the capital of the Confederacy, the largest extant nation in human space. While the rest of the galaxy struggles, Barnard's World remains as rich as it ever was, thanks to the large deposits of rhodium found beneath its surface. Above that surface looms an increasingly large metropolis, home of some 15 billion people.`
+	description `	While the GDP of Barnard's World is exceptionally high, many citizens still struggle to make a living. The lower streets are full of flocks of homeless people, who have no job and no means of obtaining one in an economy that requires little labour to continue. Centuries of libertarian policy-making have had a mark on this planet, and while the average resident enjoys a higher standard of living than their ancestors, many do not.`
+	spaceport `	The spaceport on Barnard's World is what appears to be a massive amphitheather, several kilometres across. Inset into the metal floor of the amphitheather are several hundred concrete landing pads of varying sizes, most of which are presently occupied. Aircars and automobiles flit back and forth, and pilots barter with prospective customers in the midst of it all. At one end of the open oval is a rail station, through which hundreds of tons of freight pass per minute: some bound for the planet's ever-hungry citizens, and some bound for the stars.`
+
+planet Europa
+	attributes z-alpha research medical military frontier
+	description `Europa was originally terraformed by a long-forgotten religious minority fleeing persecution on Earth, way back in the 34th century. Since then, it has become something a haven for all those whose views do not match those of the socialites on Barnard's World. Europa, while technically part of the Confederacy, operates with partial autonomy, and boasts a large private navy. Because of this, its citizens live without fear of the pirates that are all too common these days, and instead are able to focus on living life and conducting research on a plethora of topics.`
+	spaceport `The spaceport on Europa is large, well maintained, and very modern. The landing pads are made not of concrete but a similar metallic alloy to that used for warship hulls. Most of these pads are currently occupied, some by merchants and many by naval vessels. However, the majority of the landing pads seem to be part of the navy surplus shipyard, stocking various new ship models for those with the money and license to buy them. Unfortunately, you do not have said license.`
+
+planet "Finite Heaven"
+	attributes "new horizons" luminara wolf shipping
+	description `Finite Heaven lies at the junction of four important sectors on the 35th hyperfabric. As the link between the New Horizons, Luminara, Z-Alpha, and Wolf sectors, it is the primary hub for trade in this part of the galaxy. With the recent invasion of the Ashkth and the decimation of the New Horizons sector, however, the planet is in chaos. What ineffective governance there was at the beginning of the crisis has collapsed, and power is now in the hands of a few individuals. Those with means are doing whatever they can to get off-planet, and those who are left struggle to work in the smoky haze caused by the fires that rage in the capital every night.`
+	spaceport `The spaceport here was once grandiose: now it is just a sprawling ruin. Despite your ship's small size, the spaceport has seen fit to provide it with armed guards, who so far have kept any harm from coming to it. The main buildings have been razed, and the few that remain have shattered windows, occasionally but infrequently covered with grafittied pieces of wood or plastic.`
+	spaceport `	Unsurprisingly, you seem to have been one of few pilots crazy enough to land here. There's only a few other ships in sight, most of which seem to be merchants offloading food to hungry mobs as fast as possible. These ships are consistently kept under heavy guard, and a couple even have their shields up despite being in atmosphere.`
+
+planet Kheiron
+	attributes z-alpha urban research factory shipping
+	description `Kheiron is the second-oldest human-inhabited planet in the galaxy, beaten only by Ares. It was settled long before humanity discovered how to make hyperlanes or attune systems to specific hyperfabrics. In fact, it was settled even before the invention of the hyperdrive. To this day, it remains the major factory world of the Confederacy, as well as being home to some of its most prestigious universities.`
+	description `	While the air here remains hopelessly polluted, Kheiron has so far been spared nuclear fallout, and so the life expectency is as high here as anywhere else in the Confederacy. Because Kheiron lies on the primary trade route between Barnard's World and the Luminara and Wolf sectors, it also is a primary stopover for pilots looking to top up their fuel tanks and cargo holds.`
+	spaceport `Kheiron boasts no fewer than three spaceports. The oldest, placed in an inhospitable desert, was built in the era before hyperspace travel became popular. Although it has long since fallen into direpair, it is still used by smugglers and pilots looking to avoid paying tariffs on their cargos.`
+	spaceport `	The second of Kheiron's spaceports, known as the "New Port," is everything the other is not: gleaming, large, and magnificent for all its obvious age. Although the New Port is no longer large enough to properly handle the traffic Kheiron now receives, it is still in operation after more than a millenium, and is a symbol of planetary pride for Kheironites.`
+	spaceport `	The last of Kheiron's spaceports, on the other hand, is nothing more than a concrete machine for handling large amounts of freight quickly. Here, large freight convoys stop over on their way between Barnard's Star and everywhere else, offloading and onloading cargo as seems good to their captains.`
+
 planet "New Horizons 1"
 	attributes station "new horizons"
 	landscape land/station25
@@ -1573,38 +1678,3 @@ planet "New Horizons 9"
 	landscape land/station0
 	description `Once, this station was full of life and activity. All that ended with the invasion of the Ashkth. Now scorched hallways and empty hangers tell a grim tale of humanity driven mad in a vain attempt to escape a system's destruction. Lights flicker overhead as you walk these abandoned corridors, and a slow hiss of leaking air, punctuated by occasional cracks and snaps, fortells the station's imminent destruction.`
 
-planet "Finite Heaven"
-	attributes "new horizons" "luminara" "wolf" shipping
-	description `Finite Heaven lies at the junction of four important sectors on the 35th hyperfabric. As the link between the New Horizons, Luminara, Z-Alpha, and Wolf sectors, it is the primary hub for trade in this part of the galaxy. With the recent invasion of the Ashkth and the decimation of the New Horizons sector, however, the planet is in chaos. What ineffective governance there was at the beginning of the crisis has collapsed, and power is now in the hands of a few individuals. Those with means are doing whatever they can to get off-planet, and those who are left struggle to work in the smoky haze caused by the fires that rage in the capital every night.`
-	spaceport `The spaceport here was once grandiose: now it is just a sprawling ruin. Despite your ship's small size, the spaceport has seen fit to provide it with armed guards, who so far have kept any harm from coming to it. The main buildings have been razed, and the few that remain have shattered windows, occasionally but infrequently covered with grafittied pieces of wood or plastic.`
-	spaceport `	Unsurprisingly, you seem to have been one of few pilots crazy enough to land here. There's only a few other ships in sight, most of which seem to be merchants offloading food to hungry mobs as fast as possible. These ships are consistently kept under heavy guard, and a couple even have their shields up despite being in atmosphere.`
-
-planet "Artifact"
-	attributes station "z-alpha"
-	description `Once, in the distant past, this system was the go-to destination for tourists seeking to escape the confines of Earth. Many centuries later, Earth is no more, and the flow of tourism has long since ceased. No one lives planetside anymore, nor has there been any significant planetary population in the last millenium. Despite this, however, this old station remains, shouting silent defiance at the universe that has abandoned it.`
-	spaceport `The spaceport on Artifact is no different from the spaceports you're used to on stations: noisy, cramped, and highly efficient. Although few starships ever come here anymore, all the berths are still kept in proper working condition, better than many of those on stations nearer to Barnard's Wold. It is obvious that people here take pride in who they are, as shown by the polished plaques and clean floors; the soft whirr of happy machinery and the bearing of those who walk among it.`
-
-planet "Barnard's World"
-	attributes "z-alpha" urban rich mining
-	description `Barnard's World is the capital of the Confederacy, the largest extant nation in human space. While the rest of the galaxy struggles, Barnard's World remains as rich as it ever was, thanks to the large deposits of rhodium found beneath its surface. Above that surface looms an increasingly large metropolis, home of some 15 billion people.`
-	description `	While the GDP of Barnard's World is exceptionally high, many citizens still struggle to make a living. The lower streets are full of flocks of homeless people, who have no job and no means of obtaining one in an economy that requires little labour to continue. Centuries of libertarian policy-making have had a mark on this planet, and while the average resident enjoys a higher standard of living than their ancestors, many do not.`
-	spaceport `	The spaceport on Barnard's World is what appears to be a massive amphitheather, several kilometres across. Inset into the metal floor of the amphitheather are several hundred concrete landing pads of varying sizes, most of which are presently occupied. Aircars and automobiles flit back and forth, and pilots barter with prospective customers in the midst of it all. At one end of the open oval is a rail station, through which hundreds of tons of freight pass per minute: some bound for the planet's ever-hungry citizens, and some bound for the stars.`
-
-planet "Europa"
-	attributes "z-alpha" research medical military frontier
-	description `Europa was originally terraformed by a long-forgotten religious minority fleeing persecution on Earth, way back in the 34th century. Since then, it has become something a haven for all those whose views do not match those of the socialites on Barnard's World. Europa, while technically part of the Confederacy, operates with partial autonomy, and boasts a large private navy. Because of this, its citizens live without fear of the pirates that are all too common these days, and instead are able to focus on living life and conducting research on a plethora of topics.`
-	spaceport `The spaceport on Europa is large, well maintained, and very modern. The landing pads are made not of concrete but a similar metallic alloy to that used for warship hulls. Most of these pads are currently occupied, some by merchants and many by naval vessels. However, the majority of the landing pads seem to be part of the navy surplus shipyard, stocking various new ship models for those with the money and license to buy them. Unfortunately, you do not have said license.`
-
-planet "Ares"
-	attributes "z-alpha" farming frontier
-	description `After Earth was finally rendered uninhabitable by the nuclear bombs dropped in its atmosphere, as many refugees as had the means to fled the planet, escaping to Ares, the fourth planet in orbit around Earth's mother star. For the most part, these refugees moved on to other worlds, but some stayed on inhospitable Ares, farming the rocky soil and breathing the thin air.`
-	description `	Because it is so close to the Europan naval base - and has nothing worth stealing on its surface - piracy is not much of a risk on Ares, and its denizens spend their days mostly in peace, farming their little patches of dust by hand until they are too old to work.`
-	spaceport `	The spaceport on Ares consists of a few scattered and windblown outbuildings surrounded by an unorderly array of landing pads hewn into the solid rock. Each landing pad actually lies beneath the planet's natural surface level, and a retaining wall keeps the dirt from falling into it. Steps lead up to the dusty surface, where narrow, grimy paths snake between the pits.`
-
-planet "Kheiron"
-	attributes "z-alpha" urban research factory shipping
-	description `Kheiron is the second-oldest human-inhabited planet in the galaxy, beaten only by Ares. It was settled long before humanity discovered how to make hyperlanes or attune systems to specific hyperfabrics. In fact, it was settled even before the invention of the hyperdrive. To this day, it remains the major factory world of the Confederacy, as well as being home to some of its most prestigious universities.`
-	description `	While the air here remains hopelessly polluted, Kheiron has so far been spared nuclear fallout, and so the life expectency is as high here as anywhere else in the Confederacy. Because Kheiron lies on the primary trade route between Barnard's World and the Luminara and Wolf sectors, it also is a primary stopover for pilots looking to top up their fuel tanks and cargo holds.`
-	spaceport `Kheiron boasts no fewer than three spaceports. The oldest, placed in an inhospitable desert, was built in the era before hyperspace travel became popular. Although it has long since fallen into direpair, it is still used by smugglers and pilots looking to avoid paying tariffs on their cargos.`
-	spaceport `	The second of Kheiron's spaceports, known as the "New Port," is everything the other is not: gleaming, large, and magnificent for all its obvious age. Although the New Port is no longer large enough to properly handle the traffic Kheiron now receives, it is still in operation after more than a millenium, and is a symbol of planetary pride for Kheironites.`
-	spaceport `	The last of Kheiron's spaceports, on the other hand, is nothing more than a concrete machine for handling large amounts of freight quickly. Here, large freight convoys stop over on their way between Barnard's Star and everywhere else, offloading and onloading cargo as seems good to their captains.`
