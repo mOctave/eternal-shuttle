@@ -15,7 +15,7 @@ mission "Enemies: New Horizons"
 	invisible
 	landing
 	npc board
-		government "Pirate"
+		government "Halith's Gang"
 		personality
 			staying
 			plunders
@@ -30,7 +30,7 @@ mission "Enemies: New Horizons"
 			variant
 				"Scrapper"
 	npc board
-		government "Pirate"
+		government "Halith's Gang"
 		personality
 			staying
 			plunders
@@ -45,7 +45,7 @@ mission "Enemies: New Horizons"
 			variant
 				"Scrapper"
 	npc board
-		government "Pirate"
+		government "Halith's Gang"
 		personality
 			staying
 			plunders

@@ -128,6 +128,7 @@ system LA-098
 	asteroids "large metal" 5 5.1408
 	minables copper 3 6.82863
 	minables neodymium 7 7.25384
+	fleet "Small Halith's Gang" 10000
 	object
 		sprite star/m4
 		period 10
@@ -228,6 +229,7 @@ system LA-143
 	asteroids "medium metal" 10 3.4224
 	asteroids "large metal" 5 4.968
 	minables silver 36 4.77376
+	fleet "Small Halith's Gang" 10000
 	object
 		sprite star/g0
 		period 10
@@ -312,6 +314,8 @@ system LA-275
 	asteroids "small metal" 1 1.9278
 	asteroids "medium metal" 7 2.7216
 	asteroids "large metal" 7 4.8006
+	fleet "Small Halith's Gang" 6000
+	fleet "Large Halith's Gang" 10000
 	object
 		sprite star/m8
 		period 10
@@ -1000,6 +1004,8 @@ system WF-004
 	link ZA-009
 	link "Zahniser's Star"
 	asteroids "large metal" 1 1.5484
+	fleet "Small Halith's Gang" 8000
+	fleet "Large Halith's Gang" 5000
 	object
 		sprite star/k0
 		distance 30.4577
@@ -1514,6 +1520,8 @@ system "Zahniser's Star"
 	asteroids "large metal" 9 7.4802
 	minables aluminum 6 4.89957
 	minables tungsten 21 6.94536
+	fleet "Small Halith's Gang" 5000
+	fleet "Large Halith's Gang" 6000
 	object
 		sprite star/m4
 		period 10

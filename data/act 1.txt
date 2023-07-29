@@ -16,7 +16,7 @@ mission "Eternal Shuttle: Intro
 	description "A grizzled mercenary has offered to accompany you free of charge as far as <destination>. That's as good a place as any to prepare to mount your attack on the Ashkth, so you've taken him up on his offer."
 	source "New Horizons 1"
 	destination "Finite Heaven"
-	npc
+	npc accompany save
 		government "Grey's Mercenaries"
 		personality
 			opportunistic
@@ -60,4 +60,6 @@ mission "Eternal Shuttle: Intro
 			`	Not long after you land, the man with the eye patch meets up with you, accompanied by a short woman with a very dangerous glint in her eye and an assault rifle at her side. "Well," he says, "it was a pleasure flying with you, captain - what did you say your name was again?"`
 			`	"<first> <last>," you respond.`
 			`	"Right, well, it was a pleasure flying with you. If you ever want to reach me again, just ask for James at the Grey's mercenaries headquarters on Awling. Until then, good luck and good hunting!"`
-			`	"With that, he turns away and walks off into the spaceport, accompanied by his gunslinging companion.`
+			`	With that, he turns away and walks off into the spaceport, accompanied by his gunslinging companion.`
+	on fail
+		dialog `Suddenly, your escort goes grey on your radar map. With a start, you look out the cockpit of your shuttle just in time to watch the beginning of the fireworks display it becomes...`

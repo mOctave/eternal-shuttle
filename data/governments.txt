@@ -94,8 +94,8 @@ government "Halith's Gang"
 	"player reputation" -30
 	"attitude toward"
 		"Zorbad's Gang" -.01
-		"Renfrew's Gang" -.01
-		"Leary's Gang" .1
+		"Renfrew's Gang" .1
+		"Leary's Gang" -.01
 		"Trence's Gang" -.1
 		"Luma Union" -.1
 		"Merchant" -.01
@@ -125,7 +125,7 @@ government "Renfrew's Gang"
 
 	"player reputation" -30
 	"attitude toward"
-		"Halith's Gang" -.01
+		"Halith's Gang" .1
 		"Zorbad's Gang" .1
 		"Leary's Gang" -.1
 		"Trence's Gang" -.01
@@ -157,8 +157,8 @@ government "Trence's Gang"
 
 	"player reputation" -30
 	"attitude toward"
-		"Halith's Gang" -.1
-		"Zorbad's Gang" -.01
+		"Halith's Gang" -.01
+		"Zorbad's Gang" -.1
 		"Renfrew's Gang" -.1
 		"Leary's Gang" .1
 		"Luma Union" -.1
