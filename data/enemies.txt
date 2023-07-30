@@ -61,6 +61,8 @@ mission "Enemies: New Horizons"
 				"Sparrow"
 
 ship "Flivver" "Flivver (Armed)"
+	add attributes
+		"weapon capacity" 6
 	outfits
 		"Meteor Missile Pod" 2
 		"Meteor Missile" 14

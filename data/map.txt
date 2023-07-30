@@ -77,6 +77,9 @@ system "Barnard's Star"
 	minables lead 5 3.38789
 	minables tungsten 1 3.12859
 	fleet "Large Renfrew's Gang" 8000
+	fleet "Small Confederacy" 2000
+	fleet "Large Confederacy" 4000
+	fleet "Small Europans" 10000
 	object
 		sprite star/g5
 		distance 31.1534
@@ -117,7 +120,7 @@ system "Barnard's Star"
 
 system LA-098
 	pos 10201.9 -193.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 233.28
 	belt 1397
 	link LA-135
@@ -134,6 +137,8 @@ system LA-098
 	fleet "Small Halith's Gang" 10000
 	fleet "Small Zorbad's Gang" 2000
 	fleet "Large Zorbad's Gang" 3000
+	fleet "Small Luminarans" 1500
+	fleet "Large Luminarans" 4000
 	object
 		sprite star/m4
 		period 10
@@ -145,7 +150,7 @@ system LA-098
 			sprite planet/lava0
 			distance 277
 			period 11.7756
-		object
+		object Silverdust
 			sprite planet/dust3
 			distance 375
 			period 18.5486
@@ -172,7 +177,7 @@ system LA-098
 
 system LA-135
 	pos 10157.9 -222.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 858.28
 	belt 1931
 	link LA-098
@@ -187,6 +192,8 @@ system LA-135
 	minables iron 16 5.47077
 	fleet "Small Zorbad's Gang" 1500
 	fleet "Large Zorbad's Gang" 2500
+	fleet "Small Luminarans" 2000
+	fleet "Large Luminarans" 6000
 	object
 		sprite star/g5
 		distance 26.3645
@@ -223,7 +230,7 @@ system LA-135
 
 system LA-143
 	pos 10273.9 -187.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 1080
 	belt 1864
 	link LA-275
@@ -239,6 +246,8 @@ system LA-143
 	fleet "Small Halith's Gang" 10000
 	fleet "Small Zorbad's Gang" 2000
 	fleet "Large Zorbad's Gang" 3000
+	fleet "Small Luminarans" 4000
+	fleet "Large Luminarans" 6000
 	object
 		sprite star/g0
 		period 10
@@ -254,7 +263,7 @@ system LA-143
 			sprite planet/dust4
 			distance 147
 			period 18.5696
-	object
+	object "New Pakistan"
 		sprite planet/forest0
 		distance 1093.53
 		period 440.143
@@ -269,7 +278,7 @@ system LA-143
 
 system LA-197
 	pos 10160.9 -181.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 425.92
 	belt 1563
 	link LA-098
@@ -283,6 +292,8 @@ system LA-197
 	minables iron 4 7.9056
 	fleet "Small Zorbad's Gang" 2000
 	fleet "Large Zorbad's Gang" 3000
+	fleet "Small Luminarans" 2000
+	fleet "Large Luminarans" 6000
 	object
 		sprite star/k5
 		period 10
@@ -313,7 +324,7 @@ system LA-197
 
 system LA-275
 	pos 10233.9 -156.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 135
 	belt 1314
 	link LA-098
@@ -329,6 +340,8 @@ system LA-275
 	fleet "Large Halith's Gang" 10000
 	fleet "Small Zorbad's Gang" 3000
 	fleet "Large Zorbad's Gang" 4000
+	fleet "Small Luminarans" 3000
+	fleet "Large Luminarans" 5000
 	object
 		sprite star/m8
 		period 10
@@ -359,7 +372,7 @@ system LA-275
 
 system LA-316
 	pos 10261.9 -226.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 912.6
 	belt 1998
 	link LA-143
@@ -372,6 +385,8 @@ system LA-316
 	asteroids "large metal" 4 3.4992
 	fleet "Small Zorbad's Gang" 3000
 	fleet "Large Zorbad's Gang" 4000
+	fleet "Small Luminarans" 4000
+	fleet "Large Luminarans" 5000
 	object
 		sprite star/k0
 		distance 40.6038
@@ -389,7 +404,7 @@ system LA-316
 		sprite planet/ice4
 		distance 441.806
 		period 122.961
-	object
+	object Klaxon
 		sprite planet/rock10
 		distance 665.616
 		period 227.382
@@ -421,6 +436,7 @@ system LA-404
 	minables tungsten 3 3.72791
 	fleet "Small Zorbad's Gang" 1000
 	fleet "Large Zorbad's Gang" 2000
+	fleet "Large Luminarans" 7000
 	object
 		sprite star/m4
 		period 10
@@ -464,6 +480,7 @@ system LA-549
 	minables tungsten 2 2.37892
 	fleet "Small Zorbad's Gang" 1500
 	fleet "Large Zorbad's Gang" 2000
+	fleet "Large Luminarans" 8000
 	object
 		sprite star/g5
 		distance 23.9183
@@ -508,7 +525,7 @@ system LA-549
 
 system LA-702
 	pos 10292.9 -270.357
-	government Uninhabited
+	government "Luma Union"
 	habitable 233.28
 	belt 1069
 	link LA-316
@@ -520,10 +537,12 @@ system LA-702
 	minables titanium 3 3.91991
 	fleet "Small Zorbad's Gang" 4000
 	fleet "Large Zorbad's Gang" 7000
+	fleet "Small Luminarans" 3000
+	fleet "Large Luminarans" 5000
 	object
 		sprite star/m4
 		period 10
-	object
+	object Marble
 		sprite planet/rock11
 		distance 153.25
 		period 49.6846
@@ -569,6 +588,7 @@ system "Lalande 21185"
 	fleet "Small Renfrew's Gang" 3000
 	fleet "Large Renfrew's Gang" 6000
 	fleet "Large Leary's Gang" 10000
+	fleet "Small Confederacy" 6000
 	object
 		sprite star/g5
 		distance 16.5197
@@ -628,10 +648,13 @@ system "Luhman 16"
 	fleet "Large Renfrew's Gang" 5500
 	fleet "Small Trence's Gang" 5000
 	fleet "Large Trence's Gang" 5000
+	fleet "Small Confederacy" 4000
+	fleet "Large Confederacy" 8000
+	fleet "Small Europans" 5000
 	object
 		sprite star/m0
 		period 10
-	object
+	object Hark
 		sprite planet/rock12
 		distance 173.49
 		period 51.0971
@@ -861,6 +884,10 @@ system "Rigil Kentaurus"
 	asteroids "large metal" 1 3.8019
 	fleet "Small Renfrew's Gang" 2500
 	fleet "Large Renfrew's Gang" 5000
+	fleet "Small Confederacy" 3000
+	fleet "Large Confederacy" 6000
+	fleet "Small Europans" 3000
+	fleet "Large Europans" 8000
 	object
 		sprite star/g3
 		distance 38.238
@@ -911,6 +938,8 @@ system Toliman
 	minables titanium 3 5.91234
 	fleet "Small Renfrew's Gang" 2000
 	fleet "Large Renfrew's Gang" 4000
+	fleet "Small Confederacy" 4000
+	fleet "Large Confederacy" 7000
 	object
 		sprite star/g5
 		period 10
@@ -954,6 +983,10 @@ system Vespera
 	asteroids "large metal" 12 2.4885
 	minables aluminum 14 3.04531
 	fleet "Large Renfrew's Gang" 10000
+	fleet "Small Confederacy" 4000
+	fleet "Large Confederacy" 6000
+	fleet "Small Europans" 2000
+	fleet "Large Europans" 3000
 	object
 		sprite star/g0
 		period 10
@@ -1306,6 +1339,8 @@ system "Wolf 359"
 	fleet "Large Renfrew's Gang" 6000
 	fleet "Small Trence's Gang" 4000
 	fleet "Large Trence's Gang" 6000
+	fleet "Small Confederacy" 5000
+	fleet "Large Confederacy" 10000
 	object
 		sprite star/k5
 		period 10
@@ -1315,28 +1350,38 @@ system "Wolf 359"
 		period 37.9861
 	object
 		sprite planet/titan
-		distance 304.9
-		period 103.189
+		distance 509.833
+		period 223.12
+		offset 186.875
 	object
 		sprite planet/lava1
-		distance 492.15
-		period 211.613
+		distance 886.628
+		period 511.692
+		offset 292.272
+		object "Great Moon"
+			sprite planet/station6
+			distance 197
+			period 58.5113
+			offset 314.885
 	object
 		sprite planet/cloud8
-		distance 713.11
-		period 369.089
+		distance 1415.59
+		period 1032.29
+		offset 297.061
 	object
 		sprite planet/neptune
-		distance 1271.6
-		period 878.864
+		distance 1974.08
+		period 1699.97
+		offset 204.738
 		object
 			sprite planet/io
 			distance 191
 			period 13.1517
 	object
 		sprite planet/gas12
-		distance 3768.49
-		period 4483.81
+		distance 4470.97
+		period 5794.26
+		offset 18.3099
 		object
 			sprite planet/rock0
 			distance 308
@@ -1402,7 +1447,7 @@ system ZA-009
 
 system ZA-023
 	pos 10507.9 -255.357
-	government Uninhabited
+	government Confederacy
 	habitable 1715
 	belt 1334
 	link "Barnard's Star"
@@ -1415,6 +1460,8 @@ system ZA-023
 	minables neodymium 1 5.56763
 	fleet "Small Renfrew's Gang" 4000
 	fleet "Large Renfrew's Gang" 4000
+	fleet "Small Confederacy" 3000
+	fleet "Large Confederacy" 5500
 	object
 		sprite star/f5
 		period 10
@@ -1504,6 +1551,7 @@ system ZA-131
 	fleet "Large Renfrew's Gang" 6000
 	fleet "Small Trence's Gang" 3000
 	fleet "Large Trence's Gang" 4500
+	fleet "Small Confederacy" 8000
 	object
 		sprite star/f5
 		period 10
@@ -1591,6 +1639,7 @@ system "Zahniser's Star"
 	fleet "Small Zorbad's Gang" 5000
 	fleet "Large Zorbad's Gang" 6000
 	fleet "Large Leary's Gang" 8000
+	fleet "Small Luminarans" 8000
 	object
 		sprite star/m4
 		period 10
@@ -1633,9 +1682,13 @@ system "Zahniser's Star"
 
 planet Ares
 	attributes z-alpha farming frontier
+	landscape land/desert0
 	description `After Earth was finally rendered uninhabitable by the nuclear bombs dropped in its atmosphere, as many refugees as had the means to fled the planet, escaping to Ares, the fourth planet in orbit around Earth's mother star. For the most part, these refugees moved on to other worlds, but some stayed on inhospitable Ares, farming the rocky soil and breathing the thin air.`
 	description `	Because it is so close to the Europan naval base - and has nothing worth stealing on its surface - piracy is not much of a risk on Ares, and its denizens spend their days mostly in peace, farming their little patches of dust by hand until they are too old to work.`
 	spaceport `	The spaceport on Ares consists of a few scattered and windblown outbuildings surrounded by an unorderly array of landing pads hewn into the solid rock. Each landing pad actually lies beneath the planet's natural surface level, and a retaining wall keeps the dirt from falling into it. Steps lead up to the dusty surface, where narrow, grimy paths snake between the pits.`
+	"required reputation" -5
+	bribe 0.02
+	security 0.1
 
 planet Artifact
 	attributes station z-alpha
@@ -1644,28 +1697,83 @@ planet Artifact
 
 planet "Barnard's World"
 	attributes z-alpha urban rich mining
+	landscape land/city2
 	description `Barnard's World is the capital of the Confederacy, the largest extant nation in human space. While the rest of the galaxy struggles, Barnard's World remains as rich as it ever was, thanks to the large deposits of rhodium found beneath its surface. Above that surface looms an increasingly large metropolis, home of some 15 billion people.`
 	description `	While the GDP of Barnard's World is exceptionally high, many citizens still struggle to make a living. The lower streets are full of flocks of homeless people, who have no job and no means of obtaining one in an economy that requires little labour to continue. Centuries of libertarian policy-making have had a mark on this planet, and while the average resident enjoys a higher standard of living than their ancestors, many do not.`
 	spaceport `	The spaceport on Barnard's World is what appears to be a massive amphitheather, several kilometres across. Inset into the metal floor of the amphitheather are several hundred concrete landing pads of varying sizes, most of which are presently occupied. Aircars and automobiles flit back and forth, and pilots barter with prospective customers in the midst of it all. At one end of the open oval is a rail station, through which hundreds of tons of freight pass per minute: some bound for the planet's ever-hungry citizens, and some bound for the stars.`
+	"required reputation" 5
+	bribe 0.12
+	security 0.5
 
 planet Europa
 	attributes z-alpha research medical military frontier
+	landscape land/mountain3
 	description `Europa was originally terraformed by a long-forgotten religious minority fleeing persecution on Earth, way back in the 34th century. Since then, it has become something a haven for all those whose views do not match those of the socialites on Barnard's World. Europa, while technically part of the Confederacy, operates with partial autonomy, and boasts a large private navy. Because of this, its citizens live without fear of the pirates that are all too common these days, and instead are able to focus on living life and conducting research on a plethora of topics.`
 	spaceport `The spaceport on Europa is large, well maintained, and very modern. The landing pads are made not of concrete but a similar metallic alloy to that used for warship hulls. Most of these pads are currently occupied, some by merchants and many by naval vessels. However, the majority of the landing pads seem to be part of the navy surplus shipyard, stocking various new ship models for those with the money and license to buy them. Unfortunately, you do not have said license.`
+	"required reputation" 20
+	bribe 0.08
+	security 0.4
 
 planet "Finite Heaven"
 	attributes "new horizons" luminara wolf shipping
+	landscape land/city7
 	description `Finite Heaven lies at the junction of four important sectors on the 35th hyperfabric. As the link between the New Horizons, Luminara, Z-Alpha, and Wolf sectors, it is the primary hub for trade in this part of the galaxy. With the recent invasion of the Ashkth and the decimation of the New Horizons sector, however, the planet is in chaos. What ineffective governance there was at the beginning of the crisis has collapsed, and power is now in the hands of a few individuals. Those with means are doing whatever they can to get off-planet, and those who are left struggle to work in the smoky haze caused by the fires that rage in the capital every night.`
 	spaceport `The spaceport here was once grandiose: now it is just a sprawling ruin. Despite your ship's small size, the spaceport has seen fit to provide it with armed guards, who so far have kept any harm from coming to it. The main buildings have been razed, and the few that remain have shattered windows, occasionally but infrequently covered with grafittied pieces of wood or plastic.`
 	spaceport `	Unsurprisingly, you seem to have been one of few pilots crazy enough to land here. There's only a few other ships in sight, most of which seem to be merchants offloading food to hungry mobs as fast as possible. These ships are consistently kept under heavy guard, and a couple even have their shields up despite being in atmosphere.`
+	"required reputation" 0
+	bribe 0.05
+	security 0.01
+
+planet "Great Moon"
+	attributes "z-alpha station factory"
+	landscape land/station13
+	description `Great Moon is the largest and most profitable extant deuterium refinery in human space, and it shows its wealth by its spacious, modern design. Although it's technically under government ownership, and is managed by a private corporation, many entrepreneurs have set up shop here, selling everything from spacecraft parts to food. Fuel is cheap and plentiful, and the security arangements here are, if not particularly effective in space, strong enough near the station itself to keep it safe from pirates.`
+	spaceport `The spaceport on Great Moon is sleek, large, and modern. In docking, starships enter a berth on the side of the station partway and are enveloped by it. Then, the berth acts like an airlock and a maintenance shop all rolled into one, preparing the ship for its eventual departure. Afterwards, the captains and crew of the vessels are free to wander at will amongst a central deck populated with stores, amusements, and even water features.`
+	"required reputation" 2
+	bribe 0.1
+	security 0.6
+
+planet Hark
+	attributes "z-alpha mining frontier"
+	landscape land/badlands1
+	description `Hark is a sandy world, close enough to its star to be scorchingly hot but far enough away for it to be marginally habitable. The life that exists here does so by inhabiting the canyons dug into the dusty rock of Hark's badlands by swiftly flowing streams, and humans are no different.`
+	description `	While Hark is not particularly pleasant, it is the kind of place that lawless criminals love. There is only a token military presence here, and no air traffic control, meaning that any ship that makes it into the atmosphere can land wherever they find space and no one will be the wiser for it.`
+	spaceport `There are hundreds of spaceports on Hark, each with their own levels of legitimacy. The one you have chosen to land at is built in one of the largest canyons on the planet, and is home to several species of native grass, which brush your legs as you walk by. The pads themselves are inconsistent: some are made of concrete, some are hewn out of the rock, and some are made of asphalt. The outbuildings share in this untidiness, ranging from small wooden shacks all the way up to futuristic towers supported by centimetre-thick carbon nanotube columns.`
+	"required reputation" -20
+	bribe 0.02
+	security 0.05
 
 planet Kheiron
 	attributes z-alpha urban research factory shipping
+	landscape land/city11
 	description `Kheiron is the second-oldest human-inhabited planet in the galaxy, beaten only by Ares. It was settled long before humanity discovered how to make hyperlanes or attune systems to specific hyperfabrics. In fact, it was settled even before the invention of the hyperdrive. To this day, it remains the major factory world of the Confederacy, as well as being home to some of its most prestigious universities.`
 	description `	While the air here remains hopelessly polluted, Kheiron has so far been spared nuclear fallout, and so the life expectency is as high here as anywhere else in the Confederacy. Because Kheiron lies on the primary trade route between Barnard's World and the Luminara and Wolf sectors, it also is a primary stopover for pilots looking to top up their fuel tanks and cargo holds.`
 	spaceport `Kheiron boasts no fewer than three spaceports. The oldest, placed in an inhospitable desert, was built in the era before hyperspace travel became popular. Although it has long since fallen into direpair, it is still used by smugglers and pilots looking to avoid paying tariffs on their cargos.`
 	spaceport `	The second of Kheiron's spaceports, known as the "New Port," is everything the other is not: gleaming, large, and magnificent for all its obvious age. Although the New Port is no longer large enough to properly handle the traffic Kheiron now receives, it is still in operation after more than a millenium, and is a symbol of planetary pride for Kheironites.`
 	spaceport `	The last of Kheiron's spaceports, on the other hand, is nothing more than a concrete machine for handling large amounts of freight quickly. Here, large freight convoys stop over on their way between Barnard's Star and everywhere else, offloading and onloading cargo as seems good to their captains.`
+	"required reputation" 0
+	bribe 0.04
+	security 0.25
+
+planet Klaxon
+	attributes "luminara frontier forest"
+	landscape land/myrabella0
+	description `Klaxon is a mountainous world that bears remarkable similarity to the what Earth used to look like despite being marginally warmer. Vibrant life is present all over the planet's surface, and it is home to a distinctive cultural group that has spent most of the past millenium in isolation from the rest of humanity. Rumour has it that this group's distant ancenstors were stranded here after their ship's hyperdrive failed spectacularly, although local mythology claims that they were placed here by gods they call the Paukh.`
+	spaceport `The spaceport on Klaxon is an outpost of modern civilization in an otherwise wild world: that is to say, it is noisy, surrounded by barbed wire and plasma cannon, and one of the ugliest things you've ever seen. It was built here in an attempt by the last Luminaran royal dynasty to prevent a group of rebels from taking control of the planet, and although it failed in that attempt it has so far succeeded in preventing the planet from being appropriated by Zorbad's gang of pirates.`
+	"required reputation" 1
+	bribe 0.04
+	security 0.25
+
+planet Marble
+	attributes "luminara farming"
+	landscape land/fields20
+	description `Marble is the capital of the Luma Union, and has a population roughly equal to all the other planets in the union combined. While its position in the farthest each reaches of the Luminara cluster make it quite secure, it is not a rich world, with nearly half of its inhabitants being employed in sustenance agriculture.`
+	description `	The Capitol building, where the government is situated, is located in a small town not far from the spaceport, although it qualifies as a big city on Marble. It is somewhat rustic in its design, but appears to be fitted out with the latest in security apparatus. Nearby, the town's market boasts a wide array of "authentic Earth food," most of which appears to be flavoured cardboard.`
+	spaceport `The spaceport on Marble is a ring of concrete pads set in the middle of a reasonably dry field. Whoever designed them must not have figured the downward force caused by repeated landings and take-offs in their calculations, however, since the pads are slowly sinking into the soft earth.`
+	spaceport `	In the centre of the ring of landing pads is a small building that dubs itself "Marble Spaceport Authority Headquarters." Here, a couple of security guards watch over the new arrivals and make sure that no one is too blatant in smuggling in contraband. Off to the side, a large fuel tank is hooked up to an adjustable refueling hose. The fuel appears to be free for anyone capable of hauling one end of the heavy hose to their ship.`
+	"required reputation" 0
+	bribe 0.05
+	security 0.3
 
 planet "New Horizons 1"
 	attributes station "new horizons"
@@ -1677,4 +1785,23 @@ planet "New Horizons 9"
 	attributes station uninhabited "new horizons"
 	landscape land/station0
 	description `Once, this station was full of life and activity. All that ended with the invasion of the Ashkth. Now scorched hallways and empty hangers tell a grim tale of humanity driven mad in a vain attempt to escape a system's destruction. Lights flicker overhead as you walk these abandoned corridors, and a slow hiss of leaking air, punctuated by occasional cracks and snaps, fortells the station's imminent destruction.`
+
+planet "New Pakistan"
+	attributes "luminara farming forest shipping"
+	landscape land/fields13
+	description `New Pakistan is a fairly barren world, most of which is covered in sandy soil. In places, majestic trees spring up out of the broken earth, bringing with them a few hundred square kilometres of pleasantly green grass and ferns. For the most part, however, the deserts dominate the planet, and are dominated themselves by gigantic dust storms that blow away any plant that tries to take root there and cover any plant that tries to sprout.`
+	spaceport `The spaceport on New Pakistan is built in one of the more pleasant regions of the planet, amidst a wide, grassy plain. Here, humanity is free to wander without face protection and oxygen masks, and bustling towns have sprung up. Many of these seem to be aimed at servicing all the needs of the ships that pass through here, from fuel, to repairs, to providing new outfits. This industry, driven by New Pakistan's advantageous position in the Luminara cluster, is the primary source of income for the otherwise impoverished planet, and many of its citizens have taken up starship-adjacent trades in recent decades because of it.`
+	"required reputation" -2
+	bribe 0.04
+	security 0.2
+
+planet Silverdust
+	attributes "luminara moon military"
+	landscape land/desert10-harro
+	description `Silverdust is an unremarkable moon. In the winters it is frozen, in the summers it is scorchingly hot, and there are no particular natural resources on or under its surface worth exploiting. However, Silverdust occupies a unique position in the Luminara cluster, as all traffic must pass by it in order to reach the cluster's western arm, or to leave it. For this reason, the Luminarans have long maintained an important military base on its surface, where the planet's thinner atmosphere and lighter gravity aids heavy warships in taking off and landing.`
+	description `	While the atmosphere is thin, it is also breathable, being made up mostly of nitrogen and argon with some  oxygen thrown in. It is not, however, particularly easy to breathe, which makes it all the more surprising to see the extraordinary acts of athleticism demonstrated by the moon's residents.`
+	spaceport `The spaceport on Silverdust is kept under higher security than any other complex in the entire Luma Union. Your ship, which was boarded as soon as you landed, is kept under constant scrutiny, and there are nearly as many missile launchers and other heavy weapon mounts as there are landing pads. Your landing pass is checked quite often as you walk around the port by soldiers carrying a mix of laser, plasma, and ballistic weaponry, and you get the feeling that you are not welcome here at all.`
+	"required reputation" 10
+	bribe 0.2
+	security 0.95
 

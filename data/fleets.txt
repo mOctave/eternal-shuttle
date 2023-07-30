@@ -37,7 +37,7 @@ fleet "Small Halith's Gang"
 		"Hawk (Rocket)"
 	variant 3
 		"Scrapper (Minimal)"
-	vatiant 1
+	variant 1
 		"Sparrow (Gatling)"
 
 fleet "Large Halith's Gang"
@@ -111,7 +111,7 @@ fleet "Small Zorbad's Gang"
 		"Scrapper (Minimal)"
 	variant 4
 		"Berserker"
-	vatiant 1
+	variant 1
 		"Sparrow (Gatling)"
 
 fleet "Large Zorbad's Gang"
@@ -348,3 +348,177 @@ fleet "Large Trence's Gang"
 		"Wasp" 2
 		"Sparrow" 2
 		"Scrapper" 3
+
+fleet "Small Luminarans"
+	government "Luma Union"
+	names "luminaran"
+	cargo 0
+	personality
+		heroic
+		vindictive
+		opportunistic
+		confusion 10
+	variant 6
+		"Sparrow (Patrol)"
+	variant 2
+		"Sparrow"
+	variant 1
+		"Sparrow (Gatling)"
+	variant 5
+		"Berserker"
+	variant 1
+		"Berserker (Afterburner)"
+	variant 1
+		"Berserker (Strike)"
+	variant 3
+		"Scout"
+
+fleet "Large Luminarans"
+	government "Luma Union"
+	names "luminaran"
+	cargo 0
+	personality
+		heroic
+		vindictive
+		opportunistic
+		confusion 10
+	variant 8
+		"Raven"
+	variant 1
+		"Raven (Afterburner)"
+	variant 4
+		"Raven (Heavy)"
+	variant 4
+		"Berserker"
+	variant 3
+		"Sparrow (Patrol)" 2
+	variant 4
+		"Firebird"
+	variant 1
+		"Firebird (Laser)"
+	variant 1
+		"Firebird (Missile)"
+	variant 1
+		"Firebird (Plasma)"
+	variant 2
+		"Leviathan"
+	variant 1
+		"Leviathan (Heavy)"
+	variant 1
+		"Leviathan (Laser)"
+
+fleet "Small Confederacy"
+	government "Confederacy"
+	names "confederate"
+	personality
+		hunting
+		vindictive
+		opportunistic
+		confusion 20
+	variant 5
+		"Quicksilver"
+	variant 3
+		"Quicksilver (Scanner)"
+	variant 2
+		"Quicksilver (Proton)"
+	variant 2
+		"Manta"
+	variant 1
+		"Manta (Proton)"
+	variant 1
+		"Splinter"
+	variant 1
+		"Splinter (Laser)"
+	variant 1
+		"Splinter (Proton)"
+	variant 3
+		"Quicksilver"
+		"Quicksilver (Scanner)"
+
+fleet "Large Confederacy"
+	government "Confederacy"
+	names "confederate"
+	personality
+		hunting
+		vindictive
+		opportunistic
+		confusion 20
+	variant 4
+		"Manta"
+	variant 1
+		"Manta (Proton)"
+	variant 3
+		"Splinter"
+	variant 1
+		"Splinter (Laser)"
+	variant 1
+		"Splinter (Proton)"
+	variant 8
+		"Vanguard"
+	variant 1
+		"Vanguard (Missile)"
+	variant 1
+		"Vanguard (Particle)"
+	variant 7
+		"Protector"
+	variant 1
+		"Protector (Laser)"
+	variant 1
+		"Protector (Proton)"
+	variant 1
+		"Protector (Quad Blaster)"
+	variant 3
+		"Manta"
+		"Quicksilver" 2
+	variant 3
+		"Splinter"
+		"Quicksilver" 2
+	variant 1
+		"Vanguard"
+		"Quicksilver"
+		"Quicksilver (Proton)"
+		"Quicksilver (Scanner)"
+	variant 5
+		"Class C Freighter"
+		"Combat Drone" 12
+
+fleet "Small Europans"
+	government "Europan Guard"
+	names "europan small"
+	fighters "europan fighter"
+	personality
+		daring
+		opportunistic
+		unconstrained
+		merciful
+		confusion 5
+	variant 5
+		"Rainmaker (Mark II)"
+	variant 5
+		"Gunboat (Mark II)"
+	variant 3
+		"Frigate (Mark II)"
+	variant 1
+		"Frigate (Mark II)"
+		"Gunboat (Mark II)" 2
+		"Rainmaker (Mark II)" 2
+
+fleet "Large Europans"
+	government "Europan Guard"
+	names "europan capital"
+	fighters "europan fighter"
+	personality
+		daring
+		opportunistic
+		unconstrained
+		merciful
+		confusion 5
+	variant 1
+		"Cruiser (Mark II)"
+		"Combat Drone" 4
+	variant 1
+		"Carrier (Mark II)"
+		"Lance" 4
+		"Combat Drone" 6
+	variant 1
+		"Dreadnought"
