@@ -19,6 +19,7 @@ fleet "Small Halith's Gang"
 		disables
 		plunders
 		harvests
+		coward
 		confusion 20
 	variant 10
 		"Scrapper"
@@ -36,6 +37,8 @@ fleet "Small Halith's Gang"
 		"Hawk (Rocket)"
 	variant 3
 		"Scrapper (Minimal)"
+	vatiant 1
+		"Sparrow (Gatling)"
 
 fleet "Large Halith's Gang"
 	government "Halith's Gang"
@@ -45,6 +48,7 @@ fleet "Large Halith's Gang"
 		disables
 		plunders
 		harvests
+		coward
 		confusion 20
 	variant 3
 		"Sparrow" 2
@@ -78,3 +82,269 @@ fleet "Large Halith's Gang"
 		"Hawk" 2
 	variant 1
 		"Bastion"
+
+fleet "Small Zorbad's Gang"
+	government "Zorbad's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 8
+		"Scrapper"
+	variant 6
+		"Scout"
+	variant 5
+		"Sparrow"
+	variant 3
+		"Heavy Shuttle (Armed)"
+	variant 2
+		"Sparrow"
+		"Scrapper"
+	variant 2
+		"Scout"
+		"Scrapper"
+	variant 2
+		"Scrapper (Minimal)"
+	variant 4
+		"Berserker"
+	vatiant 1
+		"Sparrow (Gatling)"
+
+fleet "Large Zorbad's Gang"
+	government "Zorbad's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 5
+		"Berserker"
+	variant 2
+		"Berserker (Afterburner)"
+	variant 2
+		"Berserker (Strike)"
+	variant 4
+		"Sparrow"
+	variant 1
+		"Sparrow (Gatling)"
+	variant 3
+		"Scout"
+	variant 1
+		"Scout (Speedy)"
+	variant 2
+		"Firebird"
+	variant 1
+		"Leviathan"
+	variant 3
+		"Berserker"
+		"Scrapper" 2
+	variant 2
+		"Berserker"
+		"Sparrow" 2
+	variant 1
+		"Berserker"
+		"Berserker (Strike)"
+		"Sparrow (Gatling)"
+	variant 1
+		"Firebird"
+		"Sparrow" 2
+
+fleet "Small Renfrew's Gang"
+	government "Renfrew's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 5
+		"Scrapper"
+	variant 2
+		"Scrapper (Minimal)"
+	variant 4
+		"Sparrow"
+	variant 1
+		"Sparrow (Gatling)"
+	variant 3
+		"Quicksilver"
+	variant 1
+		"Quicksilver (Proton)"
+
+fleet "Large Renfrew's Gang"
+	government "Renfrew's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 2
+		"Quicksilver"
+		"Scrapper (Minimal)"
+	variant 3
+		"Quicksilver (Proton)"
+	variant 4
+		"Quicksilver"
+	variant 3
+		"Sparrow"
+	variant 6
+		"Splinter"
+	variant 5
+		"Manta"
+	variant 2
+		"Gunboat"
+	variant 1
+		"Rainmaker"
+	variant 1
+		"Quicksilver"
+		"Scrapper" 3
+	variant 1
+		"Splinter"
+		"Sparrow"
+	variant 1
+		"Manta"
+		"Scrapper (Minimal)"
+	variant 1
+		"Quicksilver (Proton)"
+		"Sparrow"
+		"Scrapper" 2
+		"Scrapper (Minimal)"
+
+fleet "Small Leary's Gang"
+	government "Leary's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 6
+		"Sparrow (Patrol)"
+	variant 5
+		"Flivver (Armed)"
+	variant 4
+		"Scout"
+	variant 3
+		"Headhunter"
+	variant 1
+		"Sparrow (Patrol)" 2
+
+fleet "Large Leary's Gang"
+	government "Leary's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 8
+		"Headhunter"
+	variant 2
+		"Headhunter (Particle)"
+	variant 2
+		"Headhunter (Strike)"
+	variant 6
+		"Raven"
+	variant 1
+		"Raven (Afterburner)"
+	variant 1
+		"Raven (Heavy)"
+	variant 5
+		"Corvette"
+	variant 3
+		"Sparrow (Patrol)" 4
+	variant 2
+		"Flivver (Armed)" 3
+	variant 1
+		"Raven (Heavy)"
+		"Sparrow (Patrol)"
+	variant 1
+		"Raven (Afterburner)"
+		"Flivver (Armed)"
+	variant 1
+		"Headhunter"
+		"Sparrow (Patrol)" 2
+		"Flivver (Armed)" 2
+	variant 1
+		"Aerie"
+		"Dagger" 2
+
+fleet "Small Trence's Gang"
+	government "Trence's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 6
+		"Scrapper"
+	variant 5
+		"Wasp"
+	variant 1
+		"Wasp (Gatling)"
+	variant 1
+		"Wasp (Javelin)"
+	variant 1
+		"Wasp (Plasma)"
+	variant 1
+		"Wasp (Meteor)"
+	variant 1
+		"Wasp (Proton)"
+	variant 4
+		"Scrapper (Minimal)"
+	variant 1
+		"Sparrow"
+	variant 1
+		"Sparrow (Gatling)"
+	variant 1
+		"Sparrow (Patrol)"
+
+fleet "Large Trence's Gang"
+	government "Trence's Gang"
+	names "pirate"
+	cargo 1
+	personality
+		disables
+		plunders
+		harvests
+		coward
+		confusion 20
+	variant 4
+		"Wasp"
+	variant 3
+		"Sparrow"
+		"Scrapper" 2
+	variant 2
+		"Wasp" 2
+	variant 2
+		"Headhunter"
+	variant 4
+		"Mule"
+		"Finch"
+	variant 3
+		"Mule"
+		"Dagger"
+		"Wasp"
+	variant 2
+		"Headhunter"
+		"Wasp" 2
+		"Sparrow" 2
+		"Scrapper" 3
