@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU Affero General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-mission "Eternal Shuttle: Intro
+mission "Eternal Shuttle: Intro"
 	name "Travel to <planet>"
 	description "A grizzled mercenary has offered to accompany you free of charge as far as <destination>. That's as good a place as any to prepare to mount your attack on the Ashkth, so you've taken him up on his offer."
 	source "New Horizons 1"
@@ -28,6 +28,9 @@ mission "Eternal Shuttle: Intro
 			confusion 5
 		ship "Headhunter" "Rustbucket"
 	landing
+	to offer
+		not "Eternal Shuttle: Reached Finite Heaven: offered"
+		not "Eternal Shuttle: Finite Heaven Destroyed"
 	on offer
 		conversation
 			`After landing your battered shuttle, you are met by an elderly man wearing an eye patch. He takes one look at your ship and whistles. "It's a miracle you made it here in that." he says, "An unarmed shuttle is easy prey for pirates, let alone the Ashkth. Luckily for you, I can help fix that. It'll be four thousand credits for a laser, and you're not getting one any cheaper than that."`
@@ -63,3 +66,92 @@ mission "Eternal Shuttle: Intro
 			`	With that, he turns away and walks off into the spaceport, accompanied by his gunslinging companion.`
 	on fail
 		dialog `Suddenly, your escort goes grey on your radar map. With a start, you look out the cockpit of your shuttle just in time to watch the beginning of the fireworks display it becomes...`
+
+mission "Eternal Shuttle: Reached Finite Heaven"
+	landing
+	invisible
+	source "Finite Heaven"
+	on offer
+		"Finite Heaven death chance" += 2
+
+mission "Eternal Shuttle: Escape from Finite Heaven"
+	name "Wealthy passenger to <planet>"
+	description "Help a wealthy passenger escape the chaos that is currently engulfing Finite Heaven by carrying them to <destination>. Payment is <payment>."
+	passengers 1
+	source "Finite Heaven"
+	destination "Kheiron"
+	npc
+		government "Leary's Gang"
+		personality
+			hunting
+			vindictive
+			launching
+			confusion 10
+		ship "Scout" "Crimson Searchlight"
+		ship "Sparrow (Patrol)" "Golden Hatred"
+	to offer
+		not "Eternal Shuttle: Finite Heaven Destroyed"
+	on offer
+		conversation
+			`As you're standing by your ship with an armed guard to either side of you, a woman comes running up to you unescorted. "Captain, can you help me?" she asks, although it's more of a demand. "I need to get off this planet as fast as possible. I promise nothing illegal is going on, and I've been cleared to leave by the port authorities. What do you say?"`
+			choice
+				`	"Sure, I can do that."`
+					goto yes
+				`	"How much will you pay me?"`
+				`	"Why should I take your word for it that you're not involved in anything illegal?"`
+					goto illegal
+				`	"Sorry, but I can't do that for you."`
+					goto no
+			`	The woman seems to have been prepared for the question of payment, and is not offended in the least when you ask it. Rather, she relaxes a bit. "I can pay you 20000 credits immediately, on the condition that we're in orbit within the hour, and <payment> upon our arrival on <destination>."`
+			choice
+				`	"For that, I'll happily do the job."`
+					goto yes
+				`	"That's a lot of money. How do I know you're not running from the law?"`
+				`	"Sorry, but that's not nearly enough for the risk I'd be taking."`
+					goto no
+			`	"I know it's a lot of money, but the people I'm running from... let's just say that they're nastier than the police by several orders of magnitude. If they get their hands on me, they'd kill me even if everyone on Finite Heaven was there to witness it and the entire Europan Guard was at my back."`
+			label illegal
+			`	"No, I'm not involved in anything illegal. I won't say I'm the most honest person alive, but I certainly haven't broken any laws. As a matter of fact, I was in government myself up until the world turned upside down." She fishes out a soaking wet and tattered piece of ID bearing a bad picture of her, and some smudged text that seems to include her name. The only thing you can make out is "Security Clearance: A3."`
+			choice
+				`	"Alright, I can take you off-planet."`
+				`	"How can I trust you? For all I know, you could have faked that ID. I'm not taking you anywhere."`
+					goto no
+			label yes
+			`	The woman's face lights up when you tell her you'll take her. "Thank you, captain, thank you. I won't forget what you're doing for me, as sure as my name's Amanda Terran. Here's your payment as agreed, <payment>, which I'll hand over to you so long as we reach orbit within... 59 minutes 43 seconds and counting." With that, she steps past you into your small and battered shuttle, and sits down in the jump seat as you slide into the captain's chair. You just manage to make the one-hour time limit, and receive <payment> for your troubles. Now you just have to make it to <system>.`
+				launch
+			label no
+			`	When you tell her you won't take her off-planet, the woman's face seems to collapse, and a look of pure terror fills her eyes, just for a moment. Then her composure snaps back into place, and she hurries off to ask another captain to aid her in her escape.`
+				decline
+	on accept
+		payment 20000
+	on complete
+		payment 30000
+		conversation
+			`Amanda Terran thanks you profusely as soon as you land on <planet>, and pays you the remaining <payment>. "Well, Captain <last>," she says, "I will be forever in your debt. If you're ever on Kheiron again and need something, just ask around for Representative Terran of Finite Heaven. While we're here, I thought a gift to help make your ship slightly more combat-worthy would be helpful, what with piracy being what it is these days. What do you say to my friends installing armour plating for you?"`
+			choice
+				`	"Wow, thanks. That would come in really handy!"`
+					goto getplate
+				`	"No, thanks. My ship is strong enough as it is."`
+			`	"Well, in that case, farewell, and thank you once more for saving my life." With that, Terran turns and walks away towards a waiting cab.`
+			label getplate
+			`	Terran's "friends" turn out to be first-rate mechanics, and they install the armour plating quickly and efficiently. Terran herself thanks you one more time before vanishing into a cab bound for one of Kheiron's more prominent universities.`
+			action
+				outfit "Armour Plate"
+
+mission "Eternal Shuttle: Terran Dead"
+	landing
+	to offer
+		has "Eternal Shuttle: Escape from Finite Heaven: declined"
+		not "Eternal Shuttle: Finite Heaven Destroyed"
+	on offer
+		conversation
+			"Finite Heaven death chance" += 1
+			`The spaceport here is deathly silent, except for the sound of a broadcaster's voice coming from a hyperlink television set that many of the people here are gathered around. The voice continues speaking, "Last night, Representative Amanda Terran of the Finite Heaven government, the leading members of the Progressive party on the planet, was shot in an attack on the Finite Heaven spaceport. A band of marauders took down the fence surrounding the port using high explosives, and proceded to launch a major assault on the guard there, evidently with the aim of assasinating the controverial politician before she could flee the planet. Eight guards are dead, and dozens more hospitalized, but the port infrastructure remains -"`
+			`	The broadcast continues, but you hear no more as it is overwhelmed by a wave of static.`
+
+mission "Eternal Shuttle: Goodbye Finite Heaven"
+	landing
+	source
+		government "Luma Union" "Confederacy"
+	to offer
+		random < "Finite Heaven death chance"

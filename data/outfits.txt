@@ -1,0 +1,8 @@
+outfit "Armour Plate"
+	"mass" 8
+	"cost" 18000
+	"outfit space" -3
+	"hull" 1000
+	"corrosion protection" 10
+	"corrosion resistance" 0.1
+	description "This armour plating provides satisfactory hull protection against pirates, especially for smaller ships. And since no player should ever read this description, that's all I'm going to write."

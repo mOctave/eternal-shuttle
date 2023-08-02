@@ -8,7 +8,7 @@ phrase "confederate"
 	phrase
 		"adjectives"
 	word
-		" Confederate "
+		" Conf. "
 	phrase
 		"singular nouns" 201
 		"nouns of indeterminate quantity" 101

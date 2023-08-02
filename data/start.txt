@@ -32,7 +32,7 @@ start "Eternal Shuttle"
 			"shields" 500
 			"hull" 600
 			"required crew" 1
-			"bunks" 1
+			"bunks" 2
 			"mass" 70
 			"drag" 1.7
 			"heat dissipation" .8

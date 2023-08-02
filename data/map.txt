@@ -738,7 +738,7 @@ system "Luyten 726-8"
 
 system NH-005
 	pos 10134 -51
-	government Independent
+	government "Verge Galactic"
 	link NH-261
 	link NH-411
 	fleet "Small Halith's Gang" 3000
@@ -760,7 +760,7 @@ system NH-005
 
 system NH-043
 	pos 10000 0
-	government Uninhabited
+	government "Verge Galactic"
 	link NH-081
 	fleet "Small Halith's Gang" 5000
 	fleet "Large Halith's Gang" 8000
@@ -1621,7 +1621,7 @@ system ZA-452
 
 system "Zahniser's Star"
 	pos 10276.9 -125.357
-	government Independent
+	government "Eyre Corp"
 	habitable 233.28
 	belt 1137
 	link LA-275

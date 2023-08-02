@@ -19,6 +19,7 @@ government "Confederacy"
 	"attitude toward"
 		"Merchant" .1
 		"Luma Union" .01
+		"Eyre Corp" .05
 
 		"Halith's Gang" -.2
 		"Zorbad's Gang" -.2
@@ -38,6 +39,7 @@ government "Luma Union"
 	"attitude toward"
 		"Merchant" .15
 		"Confederacy" .01
+		"Eyre Corp" .1
 
 		"Halith's Gang" -.2
 		"Zorbad's Gang" -.2
@@ -58,11 +60,11 @@ government "Grey's Mercenaries"
 		"Merchant" .1
 		"Luma Union" .01
 
-		"Halith's Gang" -.2
-		"Zorbad's Gang" -.2
-		"Renfrew's Gang" -.2
-		"Leary's Gang" -.2
-		"Trence's Gang" -.2
+		"Halith's Gang" -.05
+		"Zorbad's Gang" -.05
+		"Renfrew's Gang" -.05
+		"Leary's Gang" -.05
+		"Trence's Gang" -.05
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly grey's merc"
@@ -87,9 +89,42 @@ government "Europan Guard"
 	"friendly hail" "friendly europan"
 	"hostile hail" "hostile europan"
 
+government "Eyre Corp"
+	swizzle 1
+	color .8 .4 .4
+
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .5
+		"Luma Union" .1
+		"Confederacy" .1
+
+		"Halith's Gang" -.2
+		"Zorbad's Gang" -.2
+		"Renfrew's Gang" -.2
+		"Leary's Gang" -.2
+		"Trence's Gang" -.2
+
+government "Verge Galactic"
+	swizzle 1
+	color .4 .6 .9
+
+	"player reputation" 10
+	"attitude toward"
+	"Merchant" .4
+	"Luma Union" .05
+
+		"Halith's Gang" -.2
+		"Zorbad's Gang" -.2
+		"Renfrew's Gang" -.2
+		"Leary's Gang" -.2
+		"Trence's Gang" -.2
+
+
 # Pirates
 government "Halith's Gang"
 	swizzle 6
+	color .8 0 0
 
 	"player reputation" -30
 	"attitude toward"
@@ -97,8 +132,12 @@ government "Halith's Gang"
 		"Renfrew's Gang" .1
 		"Leary's Gang" -.01
 		"Trence's Gang" -.1
+
 		"Luma Union" -.1
 		"Merchant" -.01
+		"Grey's Mercenaries" -.05
+		"Eyre Corp" -.1
+		"Verge Galactic" -.1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
@@ -106,6 +145,7 @@ government "Halith's Gang"
 
 government "Zorbad's Gang"
 	swizzle 6
+	color .7 0 .2
 
 	"player reputation" -30
 	"attitude toward"
@@ -113,8 +153,12 @@ government "Zorbad's Gang"
 		"Renfrew's Gang" .1
 		"Leary's Gang" -.01
 		"Trence's Gang" -.1
+		
 		"Luma Union" -.1
 		"Merchant" -.01
+		"Grey's Mercenaries" -.05
+		"Eyre Corp" -.1
+		"Verge Galactic" -.1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
@@ -122,6 +166,7 @@ government "Zorbad's Gang"
 
 government "Renfrew's Gang"
 	swizzle 6
+	color .7 .2 0
 
 	"player reputation" -30
 	"attitude toward"
@@ -129,8 +174,12 @@ government "Renfrew's Gang"
 		"Zorbad's Gang" .1
 		"Leary's Gang" -.1
 		"Trence's Gang" -.01
+		
 		"Luma Union" -.1
 		"Merchant" -.01
+		"Grey's Mercenaries" -.05
+		"Eyre Corp" -.1
+		"Verge Galactic" -.1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
@@ -138,6 +187,7 @@ government "Renfrew's Gang"
 
 government "Leary's Gang"
 	swizzle 6
+	color .4 0 0
 
 	"player reputation" -30
 	"attitude toward"
@@ -145,8 +195,12 @@ government "Leary's Gang"
 		"Zorbad's Gang" -.01
 		"Renfrew's Gang" -.1
 		"Trence's Gang" .1
+		
 		"Luma Union" -.1
 		"Merchant" -.01
+		"Grey's Mercenaries" -.05
+		"Eyre Corp" -.1
+		"Verge Galactic" -.1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
@@ -154,6 +208,7 @@ government "Leary's Gang"
 
 government "Trence's Gang"
 	swizzle 6
+	color .8 .3 .3
 
 	"player reputation" -30
 	"attitude toward"
@@ -161,8 +216,12 @@ government "Trence's Gang"
 		"Zorbad's Gang" -.1
 		"Renfrew's Gang" -.1
 		"Leary's Gang" .1
+		
 		"Luma Union" -.1
 		"Merchant" -.01
+		"Grey's Mercenaries" -.05
+		"Eyre Corp" -.1
+		"Verge Galactic" -.1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
