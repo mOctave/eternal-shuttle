@@ -20,10 +20,11 @@ government "Confederacy"
 		"Merchant" .1
 		"Luma Union" .01
 		"Eyre Corp" .05
+		"Sirius Pyrotechnics" .1
 
 		"Halith's Gang" -.2
 		"Zorbad's Gang" -.2
-		"Renfrew's Gang" -.2
+		"Renfrew's Gang" -.3
 		"Leary's Gang" -.2
 		"Trence's Gang" -.2
 	"bribe" .15
@@ -42,7 +43,7 @@ government "Luma Union"
 		"Eyre Corp" .1
 
 		"Halith's Gang" -.2
-		"Zorbad's Gang" -.2
+		"Zorbad's Gang" -.3
 		"Renfrew's Gang" -.2
 		"Leary's Gang" -.2
 		"Trence's Gang" -.2
@@ -78,6 +79,7 @@ government "Europan Guard"
 		"Merchant" .2
 		"Luma Union" .01
 		"Confederacy" .01
+		"Sirius Pyrotechnics" .01
 
 		"Halith's Gang" -.2
 		"Zorbad's Gang" -.2
@@ -98,9 +100,10 @@ government "Eyre Corp"
 		"Merchant" .5
 		"Luma Union" .1
 		"Confederacy" .1
+		"Vargath" .01
 
 		"Halith's Gang" -.2
-		"Zorbad's Gang" -.2
+		"Zorbad's Gang" -.3
 		"Renfrew's Gang" -.2
 		"Leary's Gang" -.2
 		"Trence's Gang" -.2
@@ -111,13 +114,45 @@ government "Verge Galactic"
 
 	"player reputation" 10
 	"attitude toward"
-	"Merchant" .4
-	"Luma Union" .05
+		"Merchant" .4
+		"Luma Union" .05
+
+		"Halith's Gang" -.3
+		"Zorbad's Gang" -.2
+		"Renfrew's Gang" -.2
+		"Leary's Gang" -.2
+		"Trence's Gang" -.2
+
+government "Sirius Pyrotechnics"
+	swizzle 8
+	color .9 .7 0
+
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .4
+		"Confederacy" .1
+		"Europan Guard" .05
 
 		"Halith's Gang" -.2
 		"Zorbad's Gang" -.2
 		"Renfrew's Gang" -.2
 		"Leary's Gang" -.2
+		"Trence's Gang" -.3
+
+government "Vargath"
+	swizzle 12
+	color .1 .2 .6
+
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .4
+		"Confederacy" .01
+		"Eyre Corp" .01
+
+		"Halith's Gang" -.2
+		"Zorbad's Gang" -.2
+		"Renfrew's Gang" -.2
+		"Leary's Gang" -.3
 		"Trence's Gang" -.2
 
 

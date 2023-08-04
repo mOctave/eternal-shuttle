@@ -59,18 +59,3 @@ mission "Enemies: New Horizons"
 			cargo 1
 			variant
 				"Sparrow"
-
-ship "Flivver" "Flivver (Armed)"
-	add attributes
-		"weapon capacity" 6
-	outfits
-		"Meteor Missile Pod" 2
-		"Meteor Missile" 14
-		"nGVF-BB Fuel Cell"
-		"KP-6 Photovoltaic Panel" 3
-		"Supercapacitor"
-		"D14-RN Shield Generator"
-		"A120 Atomic Thruster"
-		"X1200 Ion Steering"
-		"X1100 Ion Reverse Thruster"
-		"Hyperdrive"

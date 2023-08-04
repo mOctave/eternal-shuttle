@@ -407,6 +407,30 @@ fleet "Large Luminarans"
 	variant 1
 		"Leviathan (Laser)"
 
+fleet "Luminaran Miners"
+	government "Luma Union"
+	names "luminaran"
+	cargo 2
+	personality
+		mining
+		harvests
+		opportunistic
+		confusion 20
+	variant 3
+		"Sparrow (Mining)"
+	variant 3
+		"Berserker (Mining)"
+	variant 2
+		"Sparrow (Mining)" 2
+	variant 2
+		"Sparrow (Mining)" 3
+	variant 1
+		"Berserker (Mining)"
+		"Sparrow (Mining)" 2
+	variant 1
+		"Berserker (Mining)"
+		"Sparrow (Mining)" 4
+
 fleet "Small Confederacy"
 	government "Confederacy"
 	names "confederate"
@@ -522,3 +546,53 @@ fleet "Large Europans"
 		"Combat Drone" 6
 	variant 1
 		"Dreadnought"
+
+fleet "Vargath Defense"
+	government "Vargath"
+	names "civilian"
+	personality
+		timid
+		frugal
+		opportunistic
+		confusion 20
+	variant 1
+		"Sparrow (Patrol)"
+	variant 1
+		"Scout"
+	variant 1
+		"Flivver (Armed)" 3
+	variant 1
+		"Headhunter"
+
+fleet "Sirian Defense"
+	government "Sirius Pyrotechnics"
+	names "sirian"
+	personality
+		heroic
+		frugal
+		opportunistic
+		confusion 15
+	variant 6
+		"Sparrow"
+	variant 3
+		"Sparrow" 2
+	variant 1
+		"Sparrow" 3
+	variant 4
+		"Wasp"
+	variant 2
+		"Wasp (Gatling)"
+	variant 2
+		"Wasp"
+		"Sparrow"
+	variant 1
+		"Wasp" 4
+	variant 2
+		"Mule"
+		"Dagger"
+	variant 2
+		"Mule"
+		"Dagger"
+		"Sparrow" 2
+	variant 1
+		"Bactrian"

@@ -144,8 +144,8 @@ mission "Eternal Shuttle: Terran Dead"
 		has "Eternal Shuttle: Escape from Finite Heaven: declined"
 		not "Eternal Shuttle: Finite Heaven Destroyed"
 	on offer
+		"Finite Heaven death chance" += 1
 		conversation
-			"Finite Heaven death chance" += 1
 			`The spaceport here is deathly silent, except for the sound of a broadcaster's voice coming from a hyperlink television set that many of the people here are gathered around. The voice continues speaking, "Last night, Representative Amanda Terran of the Finite Heaven government, the leading members of the Progressive party on the planet, was shot in an attack on the Finite Heaven spaceport. A band of marauders took down the fence surrounding the port using high explosives, and proceded to launch a major assault on the guard there, evidently with the aim of assasinating the controverial politician before she could flee the planet. Eight guards are dead, and dozens more hospitalized, but the port infrastructure remains -"`
 			`	The broadcast continues, but you hear no more as it is overwhelmed by a wave of static.`
 

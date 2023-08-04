@@ -13,7 +13,7 @@
 
 system "Alpha Canis Majoris"
 	pos 10608.9 -73.3572
-	government Uninhabited
+	government "Sirius Pyrotechnics"
 	habitable 1705
 	belt 1360
 	link "WISE 0855-0714"
@@ -27,6 +27,7 @@ system "Alpha Canis Majoris"
 	minables lead 1 2.99768
 	fleet "Small Trence's Gang" 2500
 	fleet "Large Trence's Gang" 3500
+	fleet "Sirian Defense" 3000
 	object
 		sprite star/f5
 		distance 8.6963
@@ -54,7 +55,7 @@ system "Alpha Canis Majoris"
 		period 714.475
 		object Artifact
 			sprite planet/station1c
-			distance 100
+			distance 150
 			period 100
 	object
 		sprite planet/tethys
@@ -189,11 +190,16 @@ system LA-135
 	asteroids "small metal" 9 2.562
 	asteroids "medium metal" 33 5.25
 	asteroids "large metal" 37 2.31
-	minables iron 16 5.47077
+	minables iron 76 5.47077
+	minables copper 89 6.04918
+	minables gold 41 3.12789
+	minables tungsten 29 8.54603
+	minables uranium 15 11.2479
 	fleet "Small Zorbad's Gang" 1500
 	fleet "Large Zorbad's Gang" 2500
 	fleet "Small Luminarans" 2000
 	fleet "Large Luminarans" 6000
+	fleet "Luminaran Miners" 500
 	object
 		sprite star/g5
 		distance 26.3645
@@ -209,12 +215,19 @@ system LA-135
 		period 52.7206
 	object
 		sprite planet/lava6
-		distance 571.125
-		period 186.356
+		distance 582.125
+		period 191.765
+		offset 56.834
+		object Disque
+			sprite planet/station5
+			distance 156
+			period 37.9629
+			offset 335.272
 	object
 		sprite planet/gas5
-		distance 1483.34
-		period 780.018
+		distance 1649.34
+		period 914.557
+		offset 72.3146
 		object
 			sprite planet/desert4
 			distance 234
@@ -423,7 +436,7 @@ system LA-316
 
 system LA-404
 	pos 10171.9 -267.357
-	government Uninhabited
+	government "Zorbad's Gang"
 	habitable 233.28
 	belt 1188
 	link LA-135
@@ -444,7 +457,7 @@ system LA-404
 		sprite planet/cloud2
 		distance 326.21
 		period 154.3
-		object
+		object Bloodthirst
 			sprite planet/callisto
 			distance 174
 			period 18.4627
@@ -467,7 +480,7 @@ system LA-404
 
 system LA-549
 	pos 10327.9 -168.357
-	government Uninhabited
+	government "Zorbad's Gang"
 	habitable 858.28
 	belt 1152
 	link LA-143
@@ -496,20 +509,29 @@ system LA-549
 		period 48.5731
 	object
 		sprite planet/rock15
-		distance 513.532
-		period 158.89
+		distance 517.042
+		period 160.522
+		offset 10.3287
+		object Ballista
+			sprite planet/station1
+			distance 116
+			period 24.3422
+			offset 322.245
 	object
 		sprite planet/ocean1
-		distance 953.022
-		period 401.698
+		distance 1105.65
+		period 501.96
+		offset 187.879
 	object
 		sprite planet/desert4
-		distance 1748.02
-		period 997.851
+		distance 1900.64
+		period 1131.35
+		offset 44.6846
 	object
 		sprite planet/gas16
-		distance 4543.86
-		period 4181.99
+		distance 4696.48
+		period 4394.45
+		offset 4.36886
 		object
 			sprite planet/tethys
 			distance 179
@@ -685,7 +707,7 @@ system "Luhman 16"
 
 system "Luyten 726-8"
 	pos 10687.9 -154.357
-	government Uninhabited
+	government "Trence's Gang"
 	habitable 425.92
 	belt 1651
 	link ZA-091
@@ -700,6 +722,7 @@ system "Luyten 726-8"
 	minables tungsten 8 7.74858
 	fleet "Small Trence's Gang" 1500
 	fleet "Large Trence's Gang" 2500
+	fleet "Sirian Defense" 15000
 	object
 		sprite star/k5
 		period 10
@@ -707,7 +730,7 @@ system "Luyten 726-8"
 		sprite planet/dust6
 		distance 182.29
 		period 47.7024
-	object
+	object Vendetta
 		sprite planet/forest5
 		distance 471.3
 		period 198.309
@@ -1182,7 +1205,7 @@ system WF-008
 
 system WF-013
 	pos 10332.9 -23.3571
-	government Uninhabited
+	government Vargath
 	habitable 1080
 	belt 1078
 	link WF-004
@@ -1198,6 +1221,7 @@ system WF-013
 	minables titanium 31 9.20995
 	fleet "Small Leary's Gang" 2500
 	fleet "Large Leary's Gang" 4000
+	fleet "Vargath Defense" 5000
 	object
 		sprite star/g0
 		period 10
@@ -1213,7 +1237,7 @@ system WF-013
 		sprite planet/rock15
 		distance 614.13
 		period 185.242
-	object
+	object Vargath
 		sprite planet/rock14
 		distance 856.38
 		period 305.034
@@ -1236,7 +1260,7 @@ system WF-013
 
 system WF-031
 	pos 10394.9 -40.3572
-	government Uninhabited
+	government "Leary's Gang"
 	habitable 425.92
 	belt 1752
 	link WF-013
@@ -1277,7 +1301,7 @@ system WF-031
 		sprite planet/gas0
 		distance 3356.85
 		period 3769.59
-		object
+		object Wist
 			sprite planet/dust4
 			distance 284
 			period 14.026
@@ -1288,7 +1312,7 @@ system WF-031
 
 system "WISE 0855-0714"
 	pos 10545.9 -92.3572
-	government Uninhabited
+	government "Sirius Pyrotechnics"
 	habitable 486.68
 	belt 1353
 	link "Alpha Canis Majoris"
@@ -1298,6 +1322,7 @@ system "WISE 0855-0714"
 	asteroids "large metal" 2 7.1928
 	fleet "Small Trence's Gang" 2500
 	fleet "Large Trence's Gang" 4000
+	fleet "Sirian Defense" 4000
 	object
 		sprite star/k0
 		period 10
@@ -1305,7 +1330,7 @@ system "WISE 0855-0714"
 		sprite planet/ice1
 		distance 176.25
 		period 42.426
-	object
+	object "New Ghana"
 		sprite planet/cloud7
 		distance 554.54
 		period 236.776
@@ -1492,7 +1517,7 @@ system ZA-023
 
 system ZA-091
 	pos 10690.9 -87.3572
-	government Uninhabited
+	government "Sirius Pyrotechnics"
 	habitable 320
 	belt 1667
 	link "Luyten 726-8"
@@ -1507,6 +1532,7 @@ system ZA-091
 	minables neodymium 3 5.60498
 	fleet "Small Trence's Gang" 2000
 	fleet "Large Trence's Gang" 3000
+	fleet "Sirian Defense" 8000
 	object
 		sprite star/m0
 		period 10
@@ -1552,6 +1578,7 @@ system ZA-131
 	fleet "Small Trence's Gang" 3000
 	fleet "Large Trence's Gang" 4500
 	fleet "Small Confederacy" 8000
+	fleet "Sirian Defense" 6000
 	object
 		sprite star/f5
 		period 10
@@ -1586,7 +1613,7 @@ system ZA-131
 
 system ZA-452
 	pos 10653.9 -39.3572
-	government Uninhabited
+	government "Sirius Pyrotechnics"
 	habitable 3645
 	belt 1850
 	link "Alpha Canis Majoris"
@@ -1599,6 +1626,7 @@ system ZA-452
 	asteroids "large metal" 1 2.052
 	fleet "Small Trence's Gang" 2000
 	fleet "Large Trence's Gang" 3000
+	fleet "Sirian Defense" 5000
 	object
 		sprite star/a5
 		period 10
@@ -1692,8 +1720,19 @@ planet Ares
 
 planet Artifact
 	attributes station z-alpha
+	landscape land/station3
 	description `Once, in the distant past, this system was the go-to destination for tourists seeking to escape the confines of Earth. Many centuries later, Earth is no more, and the flow of tourism has long since ceased. No one lives planetside anymore, nor has there been any significant planetary population in the last millenium. Despite this, however, this old station remains, shouting silent defiance at the universe that has abandoned it.`
 	spaceport `The spaceport on Artifact is no different from the spaceports you're used to on stations: noisy, cramped, and highly efficient. Although few starships ever come here anymore, all the berths are still kept in proper working condition, better than many of those on stations nearer to Barnard's Wold. It is obvious that people here take pride in who they are, as shown by the polished plaques and clean floors; the soft whirr of happy machinery and the bearing of those who walk among it.`
+
+planet Ballista
+	attributes "luma station pirate"
+	landscape land/station11
+	description `Ballista was once the foremost research centre in the Luma cluster. Owned by Eyre Corp, it provided profound insights into the nature of light, gravity, and space itself. Then, about eighty years ago, a group of pirates led by a young man named Thom Zorba captured the station. Since then, Zorbad's gang has used Ballista as their primary base of operations in the east arm of the Luma cluster, and the station has been modified with a heavier armament than it had before.`
+	description `	While much of the station's scientific equipment has been removed, some has instead been converted for use as one of the galaxy's most impressive electronic warefare systems. The station is well-nigh inassailable, and bears very little resemblence to what it once was. Plaques have gathered dust, but the core machinery remains in as good order as it was a century ago.`
+	spaceport `The spaceport on Ballista could once have been described as futuristic. Since the station was captured by pirates, however, the massive open-to-vacuum docking bay has been occupied by a three-million-ton Ballistar missile system. Around the missile tubes, captains park their vessels wherever they can find room, with the smallest vessels being parked nearest to the heavy weaponry for the purpose of fewer deaths of someone makes a piloting error.`
+	"required reputation" 1
+	bribe 0.1
+	security 0.4
 
 planet "Barnard's World"
 	attributes z-alpha urban rich mining
@@ -1704,6 +1743,26 @@ planet "Barnard's World"
 	"required reputation" 5
 	bribe 0.12
 	security 0.5
+
+planet Bloodthirst
+	attributes "luma pirate"
+	landscape land/lava6
+	description `On its surface, Bloodthirst appears to be an unremarkable rocky planet. Although it has an oxygen-rich atmosphere perfect for supporting carbonic life, the life that has colonized it mostly takes the form of bacteria or large slimy patches of a moss-like substance. These slimes slowly eat away at the surface, accomplishing in mere millenia what takes wind and rain millions of years to accomplish on other planets.`
+	description `	Beneath Bloodthirst's surface, however, lie large quantities of both water and hematite. The iron ore mixes with the water, tinging it red and giving the planet its name. Unfortunately for humans, however, the hematite tends to be hard to remove from the groundwater, which in turn makes the ore deposits much harder to safely access. For this reason, Bloodthirst has only a small population, most of whom have turned to piracy - instead of mining - as a source of income.`
+	spaceport `The spaceport on Bloodthirst is an unusually large cavern coated with unusually heat-resistant slimes. There is no order here, nor is there much space to maneuver; people walk the floor of the cave as starships flit by just over their heads. The only rule at play when it comes to choosing a parking spot is to not crash into the ship of a warlord who has more firepower on their side than you do.`
+	spaceport `	Naturally, this philosophy leads to three or four casualties a day when pilots fly too low and accidentally hit a pedestrian. This number is actually surprisingly low considering that most of the pilots who frequent this spaceport are usually either drunk, on drugs, or both when they do so.`
+	"required reputation" -10
+	bribe 0.02
+	security 0
+
+planet Disque
+	attributes "luma mining station"
+	landscape land/sivael8
+	description `Disque was constructed about sixty years ago by the Luminaran government to provide a base for asteroid miners in the LA-135 system. Because of the unusually high concentrations of valuable minerals that can be found in asteroids here, the station has been wildly successful, and is now home to more than nine hundred miners and about twenty thousand support staff. Although the station was originally intended to be strictly devoted to mining, several minor side industries have grown up, and Dique is now the galaxy's leading producer of foam mini-footballs and zipper teeth.`
+	spaceport `The spaceport on Disque is large, spartan, and very efficient. One hundred interceptor-sized berths are cut into the side of the station, and these are manned around the clock by designated technicians who constantly fiddle with the mining interceptors to improve their performance and prepare them for when they are next needed. Nearby, around two dozen larger berths are provided, each with their own fuel feed, for merchant ships and the larger warships of the Luminaran fleet. Although these are not optimized quite as much as the interceptor bays, they are still very utilitarian and effective.`
+	"required reputation" 1
+	bribe 0.1
+	security 0.6
 
 planet Europa
 	attributes z-alpha research medical military frontier
@@ -1775,6 +1834,15 @@ planet Marble
 	bribe 0.05
 	security 0.3
 
+planet "New Ghana"
+	attributes "z-alpha desert mountain oil"
+	landscape land/dune3
+	description `New Ghana is a desert world. Although it is covered in a heavy layer of cloud and semi-breatheable atmosphere, it is home to only a few thousand permanent inhabitants, and would be home to even fewer were it not for large oil deposits beneath its surface. These deposits are some of the finest in the galaxy, and provide the rest of human space with the raw material needed to make important plastics. The cost of this operation, of course, is further environmental damage to New Ghana. However, because New Ghana is a desert world, the International Board of Environmental Control has ruled its biodiversity unnecessary, and opened it to continued extraction of oil.`
+	spaceport `The spaceport on New Ghana is small and dusty but in fairly good condition. It is nestled in a small windswept valley that makes for easy landing conditions, and has the added benefit of being nearby the largest set of oil rigs. A high berm on either side of the port does a satisfactory job of keeping windblown sand and silt out of the spaceport, and small buildings nestled into the side of the ravine provide everything a spacer could want, all within three hundred metres from their ship.`
+	"required reputation" 2
+	bribe 0.05
+	security 0.3
+
 planet "New Horizons 1"
 	attributes station "new horizons"
 	landscape land/station25
@@ -1804,4 +1872,29 @@ planet Silverdust
 	"required reputation" 10
 	bribe 0.2
 	security 0.95
+
+planet Vargath
+	attributes "wolf factory textile mountain"
+	landscape land/mountain10-sfiera
+	description `Vargath, named after its distictive stripes of cloud when viewed from space, is a pleasant if slightly desolate world. Although it is a factory planet, pollution is kept to a reasonable level, and workers tend to be well paid. The government here is free and democratic, and elections seem to be unbiased. In fact, were it not for the pirates that often raid the system, Vargath would be what passes for a paradise in this day and age.`
+	spaceport `The spaceport on Vargath is sprawling, built over the course of many years to accomodate the growing textiles industry on the planet. The landing pads are well paved in concrete, and the air traffic control tower is made of the latest starship hullmetal alloy. People bustle to and fro, and large cargo trucks carry containers between factories and the spaceport, and food from the spaceport back to the factory workers. Everything and everyone has a place here, and a purpose to fulfill.`
+
+planet Vendetta
+	attributes "z-alpha pirate forest"
+	landscape land/fog10
+	description `Vendetta is a wild jungle planet, with an atmosphere and lithosphere ideal for supporting oxygen-breathing life. However, it is also one of the most inhospitable planets in the galaxy. When the first explorers to this planet failed to return, the captain's rich family sponsored a rescue mission. When they, too, failed to return, the public suspected piracy. The truth, however, is even more concerning: every member of both crews was killed within hours of touchdown by one species of carnivorous plant or another.`
+	description `Here, even the most inconspicuous leaf will probably try to kill you. Trees have venemous bark, bear exploding fruits, and entangle unsuspecting victims in vines if they linger too long in one place. The animal life is hardly any nicer, featuring species that have evolved to be nearly indestructable and highly territorial, and will trample any new plant life they see, including humans.`
+	spaceport `Surprisingly, pirates have found a slightly more pleasant beach here on which the average human life expectency exceeds eight years. Here, they have set up a base better defended by the surrounding jungle than they could have made it themselves. While the beach is not much of a beach, it is a perfect landing site for starships, and there is a consistent coating of them on its half-melted sands. Port control here is limited to people checking for heavy weaponry and bombs, and any smuggling is encouraged although "taxed" occasionally.`
+	"required reputation" -5
+	bribe 0.03
+	security 0.05
+
+planet Wist
+	attributes "wolf pirate moon"
+	landscape land/mars1
+	description `Wist is a barren world without any atmosphere whatsoever. It is unremarkable, unfurnished with any great stock of natural resources, and it has proved to be the perfect place for a pirate base. Under the moon's surface, a network of snaking caves have been enlarged and filled with an oxygen-nitrogen atmosphere not dissimilar to the one used for spacecraft. Here, perhaps a hundred thousand souls live beyond reach of the law, and two or three times as many people. Kinetic weaponry hidden in clefts in the rock provide a formidable defence for the sprawling underground city, and the pirates are free to operate wherever they wish without fear.`
+	spaceport `The spaceport on Wist is six kilometres under the surface in a large and very long cavern, and is only accessible by means of a long, snaking tunnel that is just barely wide enough to accomodate a small warship. At either end of the passage is a set of blast doors that had to be specifically opened for you, and which turn the tunnel into an airlock. Inside the cavern, the air is breathable but stale, and automatic gun turrets track your ship as it settles into position. For pirates, port security is very careful, and all your belongings are checked soon after you land for anything particularly dangerous.`
+	"required reputation" 10
+	bribe 0.15
+	security 0.9
 
