@@ -13,8 +13,11 @@
 
 start "Eternal Shuttle"
 	name "Eternal Shuttle"
+	description `You grew up amongst the stars, a proud child of Verge Galactic. You took flight lessons the moment you were old enough to be eligible, and spent a few moderately happy years as the proud captain of a corporate trash barge.`
+	description `	Then, the Ashkth came, taking out first the corporate hedquarters, and then the star that you called home. Now all that is left for you is revenge...`
 	system "NH-043"
 	planet "New Horizons 9"
+	thumbnail "scene/eternal shuttle thumb"
 	date 19 7 4291
 	account
 		credits 5000
