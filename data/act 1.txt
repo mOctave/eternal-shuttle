@@ -72,7 +72,7 @@ mission "Eternal Shuttle: Reached Finite Heaven"
 	invisible
 	source "Finite Heaven"
 	on offer
-		"Finite Heaven death chance" += 2
+		"Finite Heaven death chance" += 5
 
 mission "Eternal Shuttle: Escape from Finite Heaven"
 	name "Wealthy passenger to <planet>"
@@ -144,14 +144,57 @@ mission "Eternal Shuttle: Terran Dead"
 		has "Eternal Shuttle: Escape from Finite Heaven: declined"
 		not "Eternal Shuttle: Finite Heaven Destroyed"
 	on offer
-		"Finite Heaven death chance" += 1
+		"Finite Heaven death chance" += 5
+		set "Eternal Shuttle: Ready to blow"
 		conversation
 			`The spaceport here is deathly silent, except for the sound of a broadcaster's voice coming from a hyperlink television set that many of the people here are gathered around. The voice continues speaking, "Last night, Representative Amanda Terran of the Finite Heaven government, the leading members of the Progressive party on the planet, was shot in an attack on the Finite Heaven spaceport. A band of marauders took down the fence surrounding the port using high explosives, and proceded to launch a major assault on the guard there, evidently with the aim of assasinating the controverial politician before she could flee the planet. Eight guards are dead, and dozens more hospitalized, but the port infrastructure remains -"`
 			`	The broadcast continues, but you hear no more as it is overwhelmed by a wave of static.`
 
+mission "Eternal Shuttle: Anti-Piracy 1"
+	name "Important package to <planet>"
+	description "Bring a Luminaran military officer, who is carrying a vitally important package, to <destination> by <date>. Payment is <payment>."
+	passengers 1
+	deadline 2 1
+	source
+		government "Luma Union"
+		near "LA-702" 1 100
+	destination "Marble"
+	to offer
+		has "Eternal Shuttle: Escape from Finite Heaven: done"
+	on offer
+		"Finite Heaven death chance" += 5
+		conversation
+			`As you're standing by your ship, you are approached by a tall military officer of indeterminate gender wearing Luminaran combat dress.`
+			`	"Hello, Captain <last>," the soldier says in a grating voice once they reach you, "You're just the captain for this job. Normally, we'd use one of our own ships for something like this, but our only available courier boat is currently in for repairs and we can't spare anything larger."`
+			choice
+				`	"What kind of job is this, exactly?"`
+					goto job
+				`	"How do you know my name?"`
+			`	"Why, you're obviously the captain of this... magnificient little boat, and that's the name you gave when you were cleared for landing. There are a hundred little traces of evidence that provide no doubt as to you having recently been in space, aboard this vessel, and you certainly act like a former employee of Verge Galactic."`
+			label job
+			`	"Your job, if you choose to except it, is simple. I have with me a small package of utmost importance, and I will accompany you to <destination>, arriving no later than <day>. Once we arrive there, I will present the package to the proper autorities, and you will receive payment of <payment>. Sounds good?"`
+			choice
+				`	"Sounds good!"`
+					accept
+				`	"If it's so important, why are you trusting me with it?"`
+				`	"Sorry, but I'm not headed that way right now."`
+					decline
+			`	"As I said, we have no choice. It must get to <planet> by <day>, and yours is the only ship available. Will you take the job?"`
+			choice
+				`	"Yes, of course."`
+					accept
+				`	"No, I'm sorry, but I cannot."`
+					decline
+	on decline
+		set "Eternal Shuttle: Ready to blow"
+	on complete
+		dialog `As soon as you touch down on <planet>, the nameless soldier hurries off your ship, leaving behind a credit chip worth <payment> and instructions to meet up with a certain Commodore Calbraith Perry in the spaceport bar if you're interested in more work.`
+		payment 12000
+
 mission "Eternal Shuttle: Goodbye Finite Heaven"
 	landing
 	source
-		government "Luma Union" "Confederacy"
+		government "Luma Union" "Confederacy" "Verge Galactic"
 	to offer
 		random < "Finite Heaven death chance"
+		has "Eternal Shuttle: Ready to blow"
